@@ -1,0 +1,260 @@
+body { 
+    box-sizing: border-box;
+    font-family: 'baskerville', 'baskerville old face', serif;
+}
+ 
+.first {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    text-align: left;
+}
+
+.table1 {
+    float: left;
+    width: 250px;
+    padding: 8px;
+
+}
+
+.table2 {
+    float: left;
+    width: 250px;
+    padding: 8px;
+}
+
+.below {
+    overflow: auto;
+    clear: both;
+}
+
+.ticket {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.ticket:hover {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.2);
+}
+
+.ticket .header {
+    background-color: #9b0000;
+    color: white;
+    font-size: 15px;
+}
+  
+.ticket li {
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.ticket .grey {
+    background-color: #eee;
+    font-size: 15px;
+}
+
+
+.ticket2 {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.ticket2:hover {
+    box-shadow: 0 7px 11px 0 rgba(0,0,0,0.2);
+}
+
+.ticket2 .header2 {
+    background-color: #ce5801;
+    color: white;
+    font-size: 15px;
+}
+
+.ticket2 li {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+  
+.ticket2 .grey2 {
+    background-color: black;
+    font-size: 15px;
+    color: white;
+}
+  
+.link {
+    background-color: #004080;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+}
+
+.field_set {
+    border-style: solid;
+    border-color: #9b0000;
+}
+
+legend { 
+    color: #9b0000;
+}
+
+.formbreak {
+    text-align: center;
+    text-decoration: underline;
+}
+
+input[type=text], input[type=tel], input[type=email], input[type=date], input[type=number] {
+	border: 2px solid #004080;
+    border-radius: 3px;
+    box-sizing:border-box;
+    width:50%;
+    padding: 10px 15px;
+    margin: 6px 0;
+    font-size: 13px;
+}
+
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus { 
+	background-color: lightcyan;
+}
+
+textarea {
+	width: 300px;
+	height: 150px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border: 2px solid #9b0000;
+	border-radius: 3px;
+    resize: none;
+    font-size: 13px;
+}
+
+input[type=radio] {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #666;
+    top: 9px;
+    height: 18px;
+    width: 18px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;     
+    margin-right: 7px;
+    outline: none;
+}
+
+input[type=radio]:checked {
+    background-color: grey;
+}
+
+input[type=checkbox] {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #666;
+    top: 9px;
+    height: 18px;
+    width: 18px;
+    border: 0;
+    cursor: pointer;     
+    margin-right: 7px;
+    outline: none;
+}
+
+input[type=checkbox]:checked {
+    background-color: grey;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+	background-color: #004080;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+	text-decoration: none;
+	margin: 3px 2px;
+    cursor: pointer;
+    width:25%;
+    font-size: 16px;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+	background-color: #9b0000;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+	text-decoration: none;
+	margin: 3px 2px;
+    cursor: pointer;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+	background-color: black;
+	border: none;
+	color: white;
+	padding: 15px 25px;
+	text-decoration: none;
+	margin: 3px 2px;
+	cursor: pointer;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #ff000d;
+}
+
+a:active {
+    color: black;
+}
+
+a.class2:link {
+    color:#004080;
+}
+
+a.class2:visited {
+    color: black;
+}
+
+a.class2:hover {
+    color:#9b0000;
+}
+
+a.class2:active {
+    color: black;
+}

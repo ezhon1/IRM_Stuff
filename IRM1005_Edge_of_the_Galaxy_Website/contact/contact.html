@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en-ca">
+		<meta charset="UTF-8">
+		<title>Contact Us | Edge of the Galaxy</title>
+		<link rel="stylesheet" type="text/css" href="contact.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../headerfooter/headerfooter.css">
+		<!-- Add the library where to find the social media icons -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="contact.js"></script>
+		<script src="../headerfooter/headerfooter.js"></script>
+	</head>
+
+	<body>		
+		<!-- copy both header and nav for the header -->
+		<!-- header -->
+		<header id="header"> 
+			Park Temperature: 24&#8451; | Status: Closed
+			<form style="float:right;">
+				<input list="stuff" name="search">
+				<datalist id="stuff" >
+					<option value="season pass">
+					<option value="jedi training academy">
+					<option value="career">
+					<option value="help">
+					<option value="jabba hutt menu">
+				</datalist>
+				<!-- search bar (does not work) -->
+				<input type="submit" value="Search" class="search" formaction='../404/404.html'>
+			</form>
+		</header>
+		<nav id="header">
+			<table>
+				<tr>
+					<td class="logo">
+						<img src="../headerfooter/media/logow.png" width=200 id="logo">
+					</td>
+					<td class="dropdown">
+						<a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+						<div class="dropdown-content">
+							<a href="../padawan/padawan.html">Padawan (under 18)</a>
+							<a href="../jedi/jedi.html">Jedi (18+)</a>
+							<a href="../events/events.html">Special Events</a>
+							<a href="../academy/academy.html">Jedi Training Academy</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+						<div class="dropdown-content">
+							<a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+							<a href="../pass/pass.html">Passes</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+						<div class="dropdown-content">
+							<a href="../menu/menu.html">Menu</a>
+							<a href="../restaurantevents/restaurantevents.html">Events</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../info/info.html' class="dropdown-button">Information</a>
+						<div class="dropdown-content">
+							<a href="../faq/faq.html">FAQ</a>
+							<a href="../help/help.html">Help!</a>
+							<a href="../contact/contact.html">Contact Us</a>
+							<a href="../jobs/jobs.html">Careers</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</nav>
+
+		<section>
+		<div class="all">
+			<!--Image taken from https://cdn.webshopapp.com/shops/217760/files/261794891/sideshow-star-wars-stormtrooper-premium-format.jpg-->
+			<img src="media/stormtrooper.jpg"alt="stormtrooper" class="image"/>
+			<div class="first">Contact Us</div>
+		</div>
+		<h1 id="demo">Contact Us Page</h1>
+		<button type="button" class="button" onclick="bigFont()">Change font size</button>
+		<button type="button" class="button" onclick="smallFont();">Revert back to the original size.</button>
+		</section>
+		<h3>Contact Information:</h3> <hr>
+		<p>In a Galaxy Far, Far Away <br /> Edge of the Galaxy Park <br /> PO Box 0000 <br /> Blue Planet, Milky Way</p> <br />
+		<img src="media/contact us logo.jpg" alt="Contact information pictures and logos of maps, email, and call." style="widows:560px; height:200px;"> 
+		<!-- source of the image of Contact Us logo section: Contact us logo.jpg link is  https://pixabay.com/illustrations/contact-us-communication-support-1908762/. and the copied link address is https://cdn.pixabay.com/photo/2016/12/15/12/24/contact-us-1908762_960_720.png.-->
+		<br/>
+		<ul>
+			<li>Call us at <strong>(666) 666 Jedi</strong> or Toll Free at <strong>1-(800)-666 Jedi</strong></li><i class="fa fa-phone"></i>
+			<li>Customer Service Office: <strong>1-(800)-666 Lost</strong></li><a href="../map/map.html"><i class="fa fa-map-marker"></i></a> 
+			<li>Special Help! Line: <strong>(666) Helpme!</strong></li>
+			<li>VIP service line: <strong>(666) VIP Jedi</strong></li><i class="fa fa-location-arrow"></i>
+			<li>Email: edgeofthegalaxypark@jedi.com</li><i class="fa fa-mail-forward"></i>
+		</ul>
+		<div id="flip">Click to slide up or down!</div>
+		<div id="panel">Well, find out how to contact us below with social media!</div>
+		<h4>Need help?</h4>
+		<p>Fill out our form below.</p>
+		<p id="test">Check us out on our social media pages.</p>
+		<!-- Social icon bar-->
+		<div class="icon-bar">
+			<a href="https://www.facebook.com/edgeof.thegalaxy.96"><i class="fa fa-facebook"></i></a>
+			<a href="https://twitter.com/edgeofthegalax2"><i class="fa fa-twitter"></i></a>
+			<a href="https://instagram.com/edge_of_the_galaxy_theme_park"><i class="fa fa-instagram"></i></a>
+			<a href="https://snapchat.com"><i class="fa fa-snapchat"></i></a>
+			<a href="https://www.youtube.com/channel/UCuZfjcSPvdc4WuZQlJUiMpA?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+		</div>
+		<p>We're here to help with whatever you need. Find more answers to your questions in our <a href="../faq/faq.html">FAQ section.</a></p>
+		<form name="myForm" id="form" onsubmit="validateForm()" method="post">
+			<fieldset style="width: 43%;" class="field_set">
+			<legend text-align="center;" font-size="larger;">Your Information:</legend>
+				<div class="formbreak"><strong>Personal Information</strong></div> 
+				<strong>First Name:</strong><br />
+				<input type="text" name="firstname" /> <br /> 
+				<strong>Last Name: </strong> <br />
+				<input type="text" name="lastname"/>
+				<br />
+				<strong>Please provide any additional comments or questions.</strong> <br />
+				<textarea id="description_id" name="comments" cols="10" rows="3" maxlength="250"></textarea>
+				<br />
+				<div id="textarea_feedback"></div>
+				<br />
+				<textarea name="comment" id="myTextarea" cols="40" rows="6">Please write any comment in terms of how you feel about our theme park!</textarea>
+				<br>
+				<button type="button" class="button" onclick="getAndDisplay()">Get Text</button>
+				<br>
+				<br>
+				<p id="display"></p>
+				<br /> 
+				<strong>Please provide your email.</strong> <br/>
+				<input type="text" name="email"> <br />
+				<input type="text" name="inputbox" value=""> <br />
+				<br />
+				<input type="button" name="button1" value="Read" onClick="readText(this.form)"> <br />
+				<input type="button" name="button2" value="Write" onClick="writeText(this.form)">  <br /> 
+				<input type="button" value="Submit" onclick="validateForm()"/>
+				<input type="reset" value="Reset" />
+			</fieldset>
+		</form> 
+		<hr>
+		<img class="center" src="media/Star_wars_logo.jpg" alt="Star Wars image logo of contact information." width="400px" height="300px"> 
+		<!-- source of the image of Contact Us section: Star wars.jpg  link is https://starwars.fandom.com/wiki/Star_Wars. website taken from this copied link address https://vignette.wikia.nocookie.net/starwars/images/c/cc/Star-wars-logo-new-tall.jpg/revision/latest?cb=20190313021755.jpg.-->
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<!-- footer -->	
+		<footer>
+			<p class="f">
+				<i>Q: Which program do Jedi use to open PDF files? <br /></i>
+				<i>A: Adobe Wan Kenobi.</i>
+			</p>
+				<!-- Add social media icons -->
+			<h2 class="title">Follow Us</h2>
+				<a href="https://www.facebook.com/edgeof.thegalaxy.96"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/edgeofthegalax2"><i class="fa fa-twitter"></i></a>
+				<a href="https://instagram.com/edge_of_the_galaxy_theme_park"><i class="fa fa-instagram"></i></a>
+				<a href="https://snapchat.com"><i class="fa fa-snapchat"></i></a>
+				<a href="https://www.youtube.com/channel/UCuZfjcSPvdc4WuZQlJUiMpA?view_as=subscriber"><i class="fa fa-youtube"></i></a>
+			</p>
+				<b>Stay connected </b><br />
+				<form> <!-- email subscription form (does not work) -->
+				<input type="email" name="email" required /> <br />
+				<input type="checkbox" name="confirm" required/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+				<input id="submit" type="submit" value="Subscribe" style="border:none; padding:8px 15px;"/>
+				</form>
+			<br />
+			Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions. 
+			<br />
+			&copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved
+		</footer>
+	</body>
+</html>

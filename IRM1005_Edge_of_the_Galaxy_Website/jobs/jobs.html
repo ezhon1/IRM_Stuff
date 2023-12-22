@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Careers</title>		
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="jobs.css" />
+		<link rel="stylesheet" type="text/css" href="../HeaderFooter/HeaderFooter.css" />
+		<script src="jobs.js"></script>
+		<script src="../headerfooter/headerfooter.js"></script>
+	</head>
+	
+	<body onload="startSpin()">
+		<!-- header here -->
+		<header id="header"> 
+			Park Temperature: 24&#8451; | Status: Closed
+			<form style="float:right;">
+				<input list="stuff" name="search">
+				<datalist id="stuff" >
+					<option value="season pass">
+					<option value="jedi training academy">
+					<option value="career">
+					<option value="help">
+					<option value="jabba hutt menu">
+				</datalist>
+				<!-- search bar (does not work) -->
+				<input type="submit" value="Search" formaction='../404/404.html'>
+			</form>
+		</header>
+		<nav id="header">
+			<table>
+				<tr>
+					<td class="logo">
+						<img src="../headerfooter/media/logow.png" width=200 id="logo">
+					</td>
+					<td class="dropdown">
+						<a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+						<div class="dropdown-content">
+							<a href="../padawan/padawan.html">Padawan (under 18)</a>
+							<a href="../jedi/jedi.html">Jedi (18+)</a>
+							<a href="../events/events.html">Special Events</a>
+							<a href="../academy/academy.html">Jedi Training Academy</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+						<div class="dropdown-content">
+							<a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+							<a href="../pass/pass.html">Passes</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+						<div class="dropdown-content">
+							<a href="../menu/menu.html">Menu</a>
+							<a href="../restaurantevents/restaurantevents.html">Events</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../info/info.html' class="dropdown-button">Information</a>
+						<div class="dropdown-content">
+							<a href="../faq/faq.html">FAQ</a>
+							<a href="../help/help.html">Help!</a>
+							<a href="../contact/contact.html">Contact Us</a>
+							<a href="../jobs/jobs.html">Careers</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</nav>
+		
+		<!-- Page content -->
+		<div class="top">
+			<h1>Careers</h1>
+			<img src="media/sstroop.jpg" width=50% alt="https://www.dailymail.co.uk/news/article-4038116/Stormtroopers-march-London-s-iconic-sights.html">
+		</div>
+		
+		<h2>Edge of the Galaxy Park has made the <i>Top 100 Jobs on This Side of the Galaxy</i> list 5 years in a row!</h2>
+		
+		<div class="row">
+			<div class="column">
+				<h3>Benefits:</h3>
+				<ul>
+					<li>Unlimited access to The Jabba Hutt and Galaxy Tavern (19+ only)</li>
+					<li>Once a week access to the Jedi Training Academy. </li>
+					<li>One free VIP voucher per year.</li>
+					<li>Life insurance covered by Edge of the Galaxy Park Ltd.</li>
+					<li>45% lower chance of injury or death.</li>
+					<li>Unique recruitment opportunities for different galaxy factions. </li>
+					<li>Free cookies.</li>
+				</ul>
+				<img id="crest" src="media/empirelogo.svg" alt="https://commons.wikimedia.org/wiki/File:Emblem_of_the_First_Galactic_Empire.svg">
+			</div>
+			
+			<div class="column" id="apply">
+				<h3>Future Opportunities:</h3>
+				<p class="show"> Click here to apply! </p>
+				
+				<!-- most of the HTML for form below by Toan -->
+				<form name="jobform" class="jobform" id="jobform" method="post" > 
+					<fieldset>
+					<legend><b>Please fill out the form below to apply:</b></legend> 
+						<br style="line-height: 100%"/>
+						<b>*</b> First Name:
+						<input type="text" name="firstname" />
+						<br />
+						<br />
+						<b>*</b> Last Name: 
+						<input type="text" name="lastname" />
+						<br />
+						<br />
+						<b>*</b> Gender: <br />
+						<input type="radio" name="gender" value="male" onclick="checkGender()"> Male<br>
+						<input type="radio" name="gender" value="female" onclick="checkGender()"> Female<br>
+						<input type="radio" name="gender" value="other" onclick="checkGender()"> Other (Please write any necessary accommodations in the comments.)<br>
+						<br />
+						<b>*</b> Age: <input type="number" id="age" name="age" />
+						<br />
+						<br />
+						Preferred position:
+						<br />
+						<select name="job" onchange="checkJob()">
+						       <option value="None selected" selected>None</option>
+							   <option value="Restaurant">Restaurant</option>
+							   <option value="Jedi Training Academy">Jedi Training Academy</option>
+							   <option value="Attractions">Attractions</option>
+							   <option value="Selling tickets">Selling tickets</option>
+							   <option value="Help desk">Help desk</option>
+						</select>
+						<div id="br"><br /></div>
+						<p id="note">Note: This option means that you will be placed as need. </p>
+						Select all of the following attractions that apply to you.
+						<br />
+						<input type="checkbox" name="mfalcon" value="mfalcon">Millenium Falcon
+						<br />
+						<input type="checkbox" name="jta" value="jta">Jedi Training Academy
+						<br />
+						<input type="checkbox" name="sp_light" value="sp_light">Specials:Lightsaber duels
+						<br />
+						<input type="checkbox" name="sp_pod" value="sp_pod">Specials:Podracing
+						<br />
+						<br />
+						
+						<b id="comas">*</b> Please provide any additional comments or questions:<br />
+						<textarea name="comments" id="comments" rows="5" cols="30"> </textarea> 
+						<br />
+						<br />
+						<b>*</b> Email: <input type="email" name="jobs_email" /> 
+						<br />
+						<br />
+						<b>*</b> Phone number: <input type="text" name="phone" />
+						<br />
+						<br />
+						<input type="button" value="Submit" onclick="validateForm()" required/>
+						<input type="reset" value="Reset" />
+					</fieldset> 
+				</form> 
+			</div>
+		</div>
+		<br />
+		
+		<!-- footer here -->
+		<footer>
+			<p class="f">
+				Luke Skywalker and Obi-Wan Kenobi walk into a Chinese restaurant. Ten minutes into the meal, Luke still can’t figure out the chopsticks, dropping food everywhere.
+				<br />
+				Obi-Wan finally snaps, “Use the forks, Luke.”
+			</p>	
+			<b>Stay connected </b><br />
+			<form name="subscribe" method="post" class="esub"> <!-- email subscription form -->
+				<input type="email" name="email" id="subemail" size="20" required /> <br />
+				<input type="checkbox" name="confirm" id="subcheck"/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+				<input type="submit" id="subsub" value="Subscribe" disabled/>
+			</form>
+			<br />
+			Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions. 
+			<br />
+			&copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved
+		</footer>
+	</body>
+</html>

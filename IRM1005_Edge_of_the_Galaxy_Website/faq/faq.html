@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>FAQ</title>
+        <link rel="stylesheet" type="text/css" href="faq.css" >
+        <link rel="stylesheet" type="text/css" href="../HeaderFooter/HeaderFooter.css" >
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <script src="faq.js"></script>
+        <script src="../HeaderFooter/HeaderFooter.js"></script>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header id="header"> 
+            Park Temperature: 24&#8451; | Status: Closed
+            <form style="float:right;">
+                <input list="stuff" name="search">
+                <datalist id="stuff" >
+                    <option value="season pass">
+                    <option value="jedi training academy">
+                    <option value="career">
+                    <option value="help">
+                    <option value="jabba hutt menu">
+                </datalist>
+                <!-- search bar (does not work) -->
+                <input type="submit" value="Search" class="search" formaction='../404/404.html'>
+            </form>
+        </header>
+        <nav id="header">
+            <table>
+                <tr>
+                    <td class="logo">
+                        <img src="../headerfooter/media/logow.png" width=200 id="logo">
+                    </td>
+                    <td class="dropdown">
+                        <a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+                        <div class="dropdown-content">
+                            <a href="../padawan/padawan.html">Padawan (under 18)</a>
+                            <a href="../jedi/jedi.html">Jedi (18+)</a>
+                            <a href="../events/events.html">Special Events</a>
+                            <a href="../academy/academy.html">Jedi Training Academy</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+                        <div class="dropdown-content">
+                            <a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+                            <a href="../pass/pass.html">Passes</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+                        <div class="dropdown-content">
+                            <a href="../menu/menu.html">Menu</a>
+                            <a href="../restaurantevents/restaurantevents.html">Events</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../info/info.html' class="dropdown-button">Information</a>
+                        <div class="dropdown-content">
+                            <a href="../faq/faq.html">FAQ</a>
+                            <a href="../help/help.html">Help!</a>
+                            <a href="../contact/contact.html">Contact Us</a>
+                            <a href="../jobs/jobs.html">Careers</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        
+        <!--Heading-->
+        <div class="square">
+            <!--Image taken from https://carleton.ca/transportationplan/faq/-->
+            <img src="media/qanda.png" alt="QandA" class="image">
+            <h1>FAQ</h1>
+            <p class="first">Most frequently asked questions and their answers.</p>
+        </div>
+
+        <button id="bigger">Font +</button>
+        <button id="smaller">Font -</button>
+
+        <ol type="I" class="links">
+            <li><a href="#I" class="second">Parking</a></li>
+            <li><a href="#II" class="second">Lost and Found</a></li>
+            <li><a href="#III" class="second">Pets</a></li>
+            <li><a href="#IV" class="second">Accessability</a></li>
+            <li><a href="#V" class="second">Attractions</a></li>
+            <li><a href="#VI" class="second">Jedi Academy</a></li>
+        </ol>
+
+        <h4 id="I">I. How much do parking permits cost and where can I park? <i class="fas fa-map-marker-alt" style="color: black;"></i></h4>
+        <ul>
+            <li>Permits for cars and other grounded vehicles:
+                <ul>
+                    <li>$7 per Hour.</li>
+                    <li>$35 for a day pass.</li>
+                </ul>
+            </li>
+            <li>Special parking permits for spaceships:<sup><a href="#footnote" class="second">1</a></sup>
+                <ul>
+                    <li>$10 per Hour.</li>
+                    <li>$50 for a day pass.</li>
+                </ul>
+            </li>
+            <li><p>For parking locations please visit our <a href="../map/map.html" class="second">Map.</a></p></li>
+        </ul>
+
+        <h4 id="II">II. I've lost something, now what? <i class="fas fa-search" style="color: black;"></i></h4>
+        <ul>
+            <li>The Edge of the Galaxy Park is dedicated to giving our guests a lasting experience of wonder and adventure.</li>
+            <li>If a lost item is found on park premise or by our staff member at our off planet attractions, the item will be set aside for 5 months time in a secure location. </li>
+            <li>Please contact the customer service office at <i class="fas fa-phone" style="color: black;"></i><strong>1(800)-666 Lost</strong> for more details.</li>
+        </ul>
+
+        <h4 id="III">III. Are pets allowed in the park? <i class="fas fa-paw" style="color: black;"></i></h4>
+        <ul>
+            <li>No living pets or droids allowed on park premise!</li>
+            <li>Exception will be made for service animals or droids with valid permits. Please call our customer service office at <i class="fas fa-phone" style="color: black;"></i><strong>1(800)-666 Lost</strong> for more details. </li>
+        </ul>
+
+        <h4 id="IV">IV. How accessible is the Edge of the Galaxy Park? <i class="fas fa-wheelchair" style="color: black;"></i></h4>
+        <ul>
+            <li>The Edge of the Galaxy Park is accessible for all!</li>
+            <li>We welcome guests from around the globe and across the universe!</li>
+            <li>Please call our customer service office at <i class="fas fa-phone" style="color: black;"></i><strong>1(800)-666 Lost</strong> if special needs must be taken into consideration.</li>
+        </ul>
+
+        <h4 id="V">V. How do I get to an attraction? <i class="fas fa-map-signs" style="color: black;"></i></h4>
+        <ul>
+            <li>The Edge of the Galaxy Park is pleased to provide guests without our Spaceship shuttle service!</li>
+            <li>Shuttles travel back and forth between the park's off planet attractions and their respective on planet park buildings every 15 minutes.</li>
+            <li>Exact shuttle times and schedules are available around the park at various locations.</li>  
+        </ul>
+
+        <h4 id="VI">VI. How much are tickets for the Jedi Academy? <i class="fas fa-jedi" style="color: black;"></i></h4>
+        <ul>
+            <li>The Jedi Academy is an add on to a regular admissions ticker.</li>
+            <li>The following fee is required for entrance to the Jedi Training Academy:+$20 for any regular admission, +$15 for any family admission, and +$10 for any children admission.</li>
+            <li><a href="../dailytickets/dailytickets.html" class="second">Back to Daily Tickets</a></li>
+        </ul>
+
+        <p id="para">For any urgent questions or concerns please visit our <i class="fas fa-exclamation" style="color: black;"></i><a href="../help/help.html" class="second">Help!</a>Page.</p>
+        <p style= "font-size:smaller;" id="footnote">1. <em>We do not allow parking for spaceships larger than 30 meters.</em></p>
+        <hr>
+        
+        <!--footer-->
+        <footer>
+            <p class="f">
+				Q. How does Darth Vader like his toast?<br/>
+                A. On the Dark Side. 
+			</p> 		
+			<b>Stay connected </b><br />
+			<form name="subscribe" method="post" class="esub"> <!-- email subscription form -->
+				<input type="email" name="email" id="subemail" size="20" required /> <br />
+				<input type="checkbox" name="confirm" id="subcheck"/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+				<input type="submit" id="subsub" value="Subscribe" disabled/>
+			</form>
+			<br />
+			Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions. 
+			<br />
+			&copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved
+		</footer>
+    </body>
+</html>

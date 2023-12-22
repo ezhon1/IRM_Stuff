@@ -1,0 +1,75 @@
+{"edgeOfTheGalaxy": [
+    {"homepage": [
+		{"icon":"Jedi Academy", "description":"Open to all ages and levels."},
+		{"icon":"Attractions", "description":"Guaranteed fun for everyone."},
+		{"icon":"Upcoming Events", "description":"Our upcoming shows and events page always has the latest scoop."},
+        {"icon":"Restaurant", "description":"Feed your inner Jedi."},
+        {"icon":"Tickets", "description":"Take a look at our tickets page for limited offers of tickets and passes."}
+	]}, 
+
+	{"padawan": [
+		{"attraction":"Under Water City", "description":"Explore Otoh Gunga with Jar Jar Binks."},
+		{"attraction":"Corellia", "description":"Check out our Children's spaceship Flying school."},
+		{"attraction":"Also on Corellia", "description":"Courses on designing and building your own spaceship."},
+        {"attraction":"Save the Ewok!", "description":"Save the Ewok."}
+	]}, 
+
+	{"jedi": [
+		{"attraction":"Jedha", "description":"Explore Jedha."},
+		{"attraction":"Tatooine", "description":"Visit Tatoine."},
+		{"attraction":"Coruscant", "description":"Navigate Coruscant."},
+		{"attraction":"Death Star", "description":"Escape the Death Star."},
+        {"attraction":"Team Battle", "description":"Team up with friends and fight for your side."}
+	]}, 
+
+	{"map":{
+		"description":"This feature is coming soon!",
+		"countDown":"25d, 4h, 48m, 31s"
+		}
+	},
+         
+	{"daily tickets": [
+		{"type":"Individual Tickets", 
+			"name":"Regular", 
+			"price":100},
+		{"type":"Individual Tickets", 
+			"name":"Family(2 adults and 2 children)", 
+			"price":210},
+		{"type":"Individual Tickets", 
+			"name":"Children(4-12)", 
+			"price":160},
+		{"type":"Individual Tickets", 
+			"name":"All Inclusive Ticket", 
+			"price":120},
+		{"type":"Special Tickets", 
+			"name":"Jedi Training Academy", 
+			"price":"go to FAQ page for details"},
+		{"type":"Special Tickets", 
+			"name":"Haunt Month", 
+			"price":75}
+	]},
+
+	{"groupFrom":[
+		{
+		"groupInformation":
+			{
+				"groupName":"The Group",
+				"groupType":"Organization",
+				"homePlanet":"Naboo",
+				"numberAttending":20,
+				"ticketType":"Day Admission",
+				"date":20200202
+			},
+		"personalInformation":
+			{
+				"firstName":"John",
+				"lastName":"Doe",
+				"email":"Johndoe@naboo.net",
+				"phoneNumber":"0000000000",
+				"additionalComments":"null"
+			}
+		}
+	]}
+]}
+
+

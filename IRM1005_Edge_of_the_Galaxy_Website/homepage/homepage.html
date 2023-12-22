@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+		<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="homepage.css">
+		<link rel="stylesheet" type="text/css" href="../HeaderFooter/HeaderFooter.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+		<script src="homepage.js"></script>
+		<script src="../HeaderFooter/HeaderFooter.js"></script>
+	</head>
+	
+	<body onload="startSpin()">
+	<!-- header -->
+		<header id="header"> 
+			Park Temperature: 24&#8451; | Status: Closed
+			<form style="float:right;">
+				<input list="stuff" name="search">
+				<datalist id="stuff" >
+					<option value="season pass">
+					<option value="jedi training academy">
+					<option value="career">
+					<option value="help">
+					<option value="jabba hutt menu">
+				</datalist>
+				<!-- search bar (does not work) -->
+				<input type="submit" value="Search" class="search" formaction='../404/404.html'>
+			</form>
+		</header>
+		<nav id="header">
+			<table>
+				<tr>
+					<td class="logo">
+						<img src="../headerfooter/media/logow.png" width=200 id="logo">
+					</td>
+					<td class="dropdown">
+						<a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+						<div class="dropdown-content">
+							<a href="../padawan/padawan.html">Padawan (under 18)</a>
+							<a href="../jedi/jedi.html">Jedi (18+)</a>
+							<a href="../events/events.html">Special Events</a>
+							<a href="../academy/academy.html">Jedi Training Academy</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+						<div class="dropdown-content">
+							<a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+							<a href="../pass/pass.html">Passes</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+						<div class="dropdown-content">
+							<a href="../menu/menu.html">Menu</a>
+							<a href="../restaurantevents/restaurantevents.html">Events</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../info/info.html' class="dropdown-button">Information</a>
+						<div class="dropdown-content">
+							<a href="../faq/faq.html">FAQ</a>
+							<a href="../help/help.html">Help!</a>
+							<a href="../contact/contact.html">Contact Us</a>
+							<a href="../jobs/jobs.html">Careers</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</nav>
+
+		<!--Heading -->
+		<div class="all" id="all">
+			<!--Image taken from https://cdn.wallpapersafari.com/33/42/Avc0xl.png-->
+			<img src="media/starrynight.jpg" alt="Starry night" class="image">
+			<div class="first">Welcome to the Edge of the Galaxy!</div>
+			<div class="second">We are Earth's one and only Star Wars Theme Park! <br/>Open to guests from across the Universe!</div>
+		</div>	
+
+		<audio controls autoplay>
+			<source src="media/Title Sequence.ogg" type="audio/ogg">
+			<source src="media/Title Sequence.mp3" type="audio/mpeg">
+			Oops, your browser doesn't support this audio!
+			<!--Audio comes from my Itunes-->
+		</audio>
+
+		<h3>Live out your Jedi dreams!</h3> 
+		<div class="row">
+            <div class="one">
+                <a href="../academy/academy.html" title="Jedi Acadmy">
+					<i class="fas fa-jedi" id="icon1"></i>
+                </a>
+                <div class="desc">Visit our Jedi Academy! <br/>Open to all ages and levels.</div>
+			</div>
+            <div class="two">
+                <a href="../attractions/attractions.html" title="Attractions">
+                    <i class="fas fa-map-signs" id="icon2"></i>
+                </a>
+                <div class="desc">Check out our attractions page! <br/> Guaranteed fun for everyone!</div>
+			</div>
+            <div class="three">
+				<a href="../events/events.html" title="Events">
+					<i class="fas fa-bullhorn" id="icon3"></i>
+                </a>
+				<div class="desc">Our upcoming shows and events page<br/>always has the latest scoop</div>
+			</div>
+            <div class="four">
+                <a href="../restaurant/restaurant.html" title="The Jabba Hutt">
+                    <i class="fas fa-utensils" id="icon4"></i>
+                </a>
+                <div class="desc">Visit the Jabba Hutt and <br/>feed your inner Jedi!</div>
+			</div>
+            <div class="five">
+                <a href="../tickets/tickets.html" title="Tickets">
+                	<i class="fas fa-ticket-alt" id="icon5"></i>
+                </a>
+                <div class="desc">Take a look at out tickets page for<br/>limited time offers on tickets and passes!  <br/>Too good to miss!</div>
+            </div>
+		</div>
+
+		<section>
+			<h3>Don't miss what everyone's saying!</h3>
+			<p> 
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				"Edge of the Galaxy Park's attractions are so real you'll feel like you've <em>really</em> left earth!" -Anonymous 
+			</p>
+			<p> 
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star"></span>
+				"My kids didn't want to leave. #Hardtobeadad" -Anonymous 
+			</p>
+			<p> 
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star checked"></span>
+				<span class="fas fa-star"></span>
+				"The attractions are <em>soooo</em> thrilling and fun!" -Anonymous
+			</p>
+		</section>	
+		<hr>
+
+		<!--footer-->
+		<footer>
+			<p class="f"> 
+				Q. Which website did Chewbacca get arrested for creating?<br/>
+				A. Wookieleaks
+			</p> 	
+			<b>Stay connected </b><br />
+			<form name="subscribe" method="post" class="esub"> <!-- email subscription form -->
+				<input type="email" name="email" id="subemail" size="20" required /> <br />
+				<input type="checkbox" name="confirm" id="subcheck"/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+				<input type="submit" id="subsub" value="Subscribe" disabled/>
+			</form>
+			<br />
+			Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions. 
+			<br />
+			&copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved			
+		</footer>
+    </body>
+</html>

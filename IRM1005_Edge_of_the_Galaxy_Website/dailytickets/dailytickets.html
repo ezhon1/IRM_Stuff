@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Daily Tickets</title>
+        <link rel="stylesheet" type="text/css" href="dailytickets.css" >  
+        <link rel="stylesheet" type="text/css" href="../HeaderFooter/HeaderFooter.css" > 
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script> 
+        <script src="dailytickets.js"></script>   
+        <script src="../HeaderFooter/HeaderFooter.js"></script>
+    </head> 
+
+    <body> 
+        <!-- header -->
+        <header id="header"> 
+            Park Temperature: 24&#8451; | Status: Closed
+            <form style="float:right;">
+                <input list="stuff" name="search">
+                <datalist id="stuff" >
+                    <option value="season pass">
+                    <option value="jedi training academy">
+                    <option value="career">
+                    <option value="help">
+                    <option value="jabba hutt menu">
+                </datalist>
+                <!-- search bar (does not work) -->
+                <input type="submit" value="Search" class="search" formaction='../404/404.html'>
+            </form>
+        </header>
+        <nav id="header">
+            <table>
+                <tr>
+                    <td class="logo">
+                        <img src="../headerfooter/media/logow.png" width=200 id="logo">
+                    </td>
+                    <td class="dropdown">
+                        <a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+                        <div class="dropdown-content">
+                            <a href="../padawan/padawan.html">Padawan (under 18)</a>
+                            <a href="../jedi/jedi.html">Jedi (18+)</a>
+                            <a href="../events/events.html">Special Events</a>
+                            <a href="../academy/academy.html">Jedi Training Academy</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+                        <div class="dropdown-content">
+                            <a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+                            <a href="../pass/pass.html">Passes</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+                        <div class="dropdown-content">
+                            <a href="../menu/menu.html">Menu</a>
+                            <a href="../restaurantevents/restaurantevents.html">Events</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../info/info.html' class="dropdown-button">Information</a>
+                        <div class="dropdown-content">
+                            <a href="../faq/faq.html">FAQ</a>
+                            <a href="../help/help.html">Help!</a>
+                            <a href="../contact/contact.html">Contact Us</a>
+                            <a href="../jobs/jobs.html">Careers</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+
+        <!--This is for the heading-->
+        <div class=“all”>
+            <!--Image taken from https://wallpaperplay.com/board/star-wars-wallpapers-->
+            <img src="media/starwars.png" alt="starwars" class=“image” width="100%" height="380px">
+            <p class="first">Day Admission for Groups and Individuals</p>
+        </div>
+
+        <h3>Individual Tickets:</h3>
+        <div class="table1">
+            <ul class="ticket">
+                <li class="header">Regular</li>
+                <li class="grey">$100</li>
+                <li class="grey"><a href="../404/404.html" class="link">Buy Now</a></li>
+            </ul>
+        </div>
+        <div class="table1">
+            <ul class="ticket">
+                <li class="header">Family(2 adults and 2 children)</li>
+                <li class="grey">$210</li>
+                <li class="grey"><a href="../404/404.html" class="link">Buy Now</a></li>
+            </ul>
+        </div>
+        <div class="table1">
+            <ul class="ticket">
+                <li class="header">Children(4-12)</li>
+                <li class="grey">$160</li>
+                <li class="grey"><a href="../404/404.html" class="link">Buy Now</a></li>
+            </ul>
+        </div>
+        <div class="table1">
+            <ul class="ticket">
+                <li class="header">All Inclusive Ticket<a href="#1"><sup>1</sup></a></li>
+                <li class="grey">$120</li>
+                <li class="grey"><a href="../404/404.html" class="link">Buy Now</a></li>
+            </ul>
+        </div>
+
+        <div class="below">
+            <h3>Special Tickets:</h3>
+            <div class="table2">
+                <ul class="ticket">
+                    <li class="header" id="JTA">Jedi Training Academy</li>
+                    <li class="grey">Click <a href="../faq/faq.html" class="class2">Here</a> for details</li>
+                    <li class="grey"><a href="../404/404.html" class="link">Buy Now</a></li>
+                </ul>
+            </div>
+            <div class="table2">
+                <ul class="ticket2">
+                    <li class="header2">Haunt Month<a href="#2"><sup>2</sup></a></li>
+                    <li class="grey2">$75</li>
+                    <li class="grey2"><a href="../404/404.html" class="link">Buy Now</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="below">
+            <p><em>All Tickets include unlimited spaceship rides to and from attractions.</em></p>
+            <h3>Group Tickets:</h3>
+            <ul>
+                <li>Bring a group and save!</li>
+                <li>Groups of 15 plus can receive a discount up to 20% per person when purchasing tickets!<a href="#3" class="class2"><sup>3</sup></a></li>
+                <li>Please call or fill out the form below for more details.</li>
+            </ul>
+            <form name="form" onsubmit = "return Alert()" method="post" id="form">
+                <fieldset style="width:43%;" class="field_set">
+                    <legend style="text-align: center; font-size: larger;">Group Form:</legend>
+                    <div class="formbreak"><strong>Group Information</strong></div>
+                    <br/>
+                    Group Name:<br/>
+                    <input type="text" name="groupname"/><br/>
+                    Group Type:<br/>
+                    <input type="radio" name="type" value="school"checked/> School<br/>
+                    <input type="radio" name="type" value="organization"/> Organization<br/>
+                    <input type="radio" name="type" value="Faction"/> Faction<a href="#4" class="class2"><sup>4</sup></a><br/>
+                    <input type="radio" name="type" value="other"disabled/> Other<br/>
+                    Home Planet:<br/>
+                    <input type="text" name="homeplanet" value="Earth"/><br/>
+                    Number of Attendees:<br/>
+                    <input type="number" id="groupnumber" name="groupnumber" min="15" max="99" value="15"/><br/>
+                    Ticket Type(s):<br/>
+                    <input type="checkbox" name="tickettype1" value="Day Admission"/> Day Admission<br/>
+                    <input type="checkbox" name="tickettype2" value="Haunt Month"/> Haunt Month<br/>
+                    <input type="checkbox" name="tickettype3" value="Jedi Academy"/> Jedi Academy<br/>
+                    Date of Admission:<br/>
+                    <input type="date" name="date"/><br/>
+                    <hr>
+                    <div class="formbreak"><strong>Personal Information</strong></div>
+                    <br/>
+                    First Name:<br/>
+                    <input type="text" name="firstname"/><br/>
+                    Last Name:<br/>
+                    <input type="text" name="lastname"/><br/>
+                    Email:<br/>
+                    <input type="email" name="email"/><br/>
+                    Phone Number:<br/>
+                    <input type="tel" name="phone"/><br/>
+                    <br/>
+                    <textarea name="comments" rows="6" cols="30">Additional Comments</textarea><br/>
+                    <input type="submit" value="Submit"/>
+                    <input type="reset"/>
+                </fieldset>
+            </form>
+        </div>
+
+        <p style="font-size:smaller;" id="1" class="spotlight">1. <em>Includes one Day Admission and All-Day Parking. Not valid for Haunt Month.</em></p>
+        <p style="font-size:smaller;" id="2" class="spotlight">2. <em>Haunt Month tickets include park access for Haunt Month hours (9pm-1am).</em></p>
+        <p style="font-size:smaller;" id="3" class="spotlight">3. <em>Group Ticket discounts are not valid for Haunt Month Tickets.</em></p>
+        <p style="font-size:smaller;" id="4" class="spotlight">4. <em>In accordance to the Universal Law of Equity, Dark Side groups who sign a non-violence contract are legible for an extra 15% discount.</em></p>
+       <hr>
+       
+        <!-- footer -->	
+		<footer>
+            <p class="f">
+                Q. What program do Jedi use to open PDF files?<br/>
+                A. Adobe Wan Kenobi 
+            </p>		
+            <b>Stay connected </b><br />
+            <form name="subscribe" method="post" class="esub"> <!-- email subscription form -->
+				<input type="email" name="email" id="subemail" size="20" required /> <br />
+				<input type="checkbox" name="confirm" id="subcheck"/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+				<input type="submit" id="subsub" value="Subscribe" disabled/>
+			</form>
+            <br />
+            Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions. 
+            <br />
+            &copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved
+        </footer>
+    </body>
+</html>

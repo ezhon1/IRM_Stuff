@@ -1,0 +1,447 @@
+/* headings */
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color: black;
+    color: #ce5801;
+    padding: 25px;
+    text-align: center;
+}
+
+h2 {
+    text-transform: capitalize;
+    margin: 20px;
+    text-decoration-color: #004080;
+    text-align: left;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+div#animate {
+    position: relative;
+}
+
+/* banner */
+
+.image {
+    width: 100%;
+    height: 380px;
+}
+
+#h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.specialeventstext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    text-shadow: black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+.button {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 1px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #004080;
+    color: white;
+}
+
+#button {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 1px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+/* select menus */
+
+select {
+    width: 50%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e0dede;
+    color: black;
+    font-family: baskerville, baskerville old face, serif;
+    font-size: 18px;
+}
+
+/* buttons */
+
+input[type=button] {
+    background-color: #004080;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+input:hover[type=button], input[type=submit] {
+    background-color: #9b0000;
+}
+
+/* pseudo-element */
+
+h4::first-letter {
+    color: #9b0000;
+    font-size: xx-large;
+}
+
+h4::first-line {
+    color: #004080;
+    font-variant: small-caps;
+    text-shadow: 3px;
+}
+
+li {
+    font-size: 20px;
+}
+
+/* body */
+
+body {
+    color: black;
+    font-family: baskerville, baskerville old face, serif;
+}
+
+/* forms */
+
+.field_set {
+    border-style: solid;
+    border-color: #9b0000;
+}
+
+legend {
+    color: #9b0000;
+}
+
+.formbreak {
+    text-align: center;
+    text-decoration: underline;
+}
+
+fieldset input[type=text] {
+    border: 2px solid #004080;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px 15px;
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+fieldset input:focus[type=text] {
+    background-color: lightcyan;
+    font-family: baskerville, baskerville old face, serif;
+}
+
+fieldset textarea {
+    width: 300px;
+    height: 150px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid #9b0000;
+    border-radius: 3px;
+    resize: none;
+    font-size: 13px;
+}
+
+fieldset input[type=radio] {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #666;
+    top: 9px;
+    height: 18px;
+    width: 18px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 7px;
+    outline: none;
+}
+
+fieldset input:checked[type=radio] {
+    background-color: grey;
+}
+
+fieldset input[type=checkbox] {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #666;
+    top: 9px;
+    height: 18px;
+    width: 18px;
+    border: 0;
+    cursor: pointer;
+    margin-right: 7px;
+    outline: none;
+}
+
+fieldset input:checked[type=checkbox] {
+    background-color: grey;
+}
+
+fieldset input[type=button], #submit[type=submit], input[type=reset] {
+    background-color: #004080;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin: 3px 2px;
+    cursor: pointer;
+    width: 25%;
+    font-size: 16px;
+}
+
+fieldset input:hover[type=button], #submit:hover[type=submit], input:hover[type=reset] {
+    background-color: #9b0000;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+fieldset input[type=button]:active, fieldset #submit[type=submit]:active, fieldset input[type=reset]:active {
+    background-color: #9b0000;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+/* image */
+
+#img {
+    border-radius: 2px;
+    float: left;
+    padding: 50px;
+    margin: 5px 10px;
+    width: 30%;
+    height: 380px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* unvisited link */
+
+a:link {
+    color: #004080;
+}
+
+/* visited link */
+
+a:visited {
+    color: #004080;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: #9b0000;
+}
+
+/* selected link */
+
+a:active {
+    color: #9b0000;
+}
+
+/* panel */
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #004080;
+    border: solid 1px #c3c3c3;
+    color: white;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+ol {
+    text-align: left;
+}
+
+::selection {
+    background-color: #9b0000;
+    color: white;
+}
+
+/* change size of title based on size of screen */
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 300px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+/* CSS for slideshow */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+
+.text {
+    color: white;
+    background-color: black;
+    font-size: 35px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    padding: 8px 12px;
+    position: relative;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,83 @@
+{"edgeOfTheGalaxy": [
+	{"headerNav":[
+		"logoHomepage",
+		{"category":"Attractions", "content":["Padawan (under 18)", "Jedi (18+)", "Special Events", "Jedi Training Academy"]}, 
+		{"category":"Tickets", "content":["Daily Tickets", "Passes"]}, 
+		{"category":"Jabba Hutt", "content":["Menu", "Events"]}, 
+		{"category":"Information", "content":["FAQ", "Help!", "Contact Us", "Careers"]}
+	]},
+	
+	{"footerSubscribe":[
+		{"email":"emiya@fate.nasu", "confirm":false},
+		{"email":"myday@deysicc.jyp", "confirm":true}
+	]},
+	
+	{"academy": [
+		{"level":"Younglings", "description":"For those who have yet to take the Initiate Trials."},
+		{"level":"Padawan", "description":"For those who’ve completed the Initiate Trials."},
+		{"level":"Jedi Knight", "description":"For those who’ve completed the Jedi trials."},
+		{"level":"Jedi Master", "description":"For those who are members of the Order."}
+	]}, 
+	
+	{"jobForm": [
+		{"firstName":"Shirou", "lastName":"Emiya", 
+			"gender":["male"], "age":18, 
+			"job":["Restaurant"],
+			"attractions": [],
+			"comments":"What's for dinner tonight?", 
+			"email":"emiya@fate.nasu", "phone":"777-777-7777"
+		}, 
+		{"firstName":"Tanjiro", "lastName":"Kamado", 
+			"gender":["male"], "age":16, 
+			"job":["Jedi Training Academy"],
+			"attractions": ["Jedi Training Academy", "Specials:Lightsaber duels"],
+			"comments":"Nezuko", 
+			"email":"tanjiro@kimetsu.jp", "phone":"119-121-3219"
+		},  
+		{"firstName":"Index", "lastName":"Librorum Prohibitorum", 
+			"gender":["female"], "age":16, 
+			"job":["Ticket sales"],
+			"attractions": ["Millenium Falcon"],
+			"comments":"The dedicated lamb protects the knowledge of the strong.", 
+			"email":"index@toaru.com", "phone":"454-931-2310"
+		}, 
+		{"firstName":"My", "lastName":"Day", 
+			"gender":["male"], "age":26, 
+			"job":["None selected"],
+			"attractions": [],
+			"comments":"Congratulations", 
+			"email":"myday@deysicc.jyp", "phone":"666-666-66666"
+		},	
+		{"firstName":"Way", "lastName":"V", 
+			"gender":["male"], "age":20, 
+			"job":["Attractions"],
+			"attractions": ["Millenium Falcon"],
+			"comments":"Fly me to the moon.", 
+			"email":"wayv@nct.sm", "phone":"888-888-8888"
+		},	
+		{"firstName":"Celty", "lastName":"Sturluson", 
+			"gender":["female"], "age":25, 
+			"job":["Help desk"],
+			"attractions": ["Specials:Podracing"],
+			"comments":"Halloween Knight", 
+			"email":"setton@drrr.jp", "phone":"421-331-8114"
+		}
+	]}, 
+	
+	{"pass": [
+		{"type":"Season Pass", 
+			"blurb":"Now including the 2019 and 2020 seasons!", 
+			"description":"Enjoy unlimited visits to Edge of the Galaxy Park...", 
+			"passPic":"media/seasonpass.png", "price":666},
+		{"type":"VIP Pass", 
+			"blurb":"Enjoy all the Park’s attractions (including Haunt Month)...", 
+			"description":"Enjoy unlimited visits to Edge of the Galaxy Park...", 
+			"passPic":"media/vippass.png", "price":999}
+	]},
+	
+	{"tickets": [
+		{"ticketPic":"media/pass.png", "name":"Passes (Seasonal and VIP)"},
+		{"ticketPic":"media/tickets.png", "name":"Daily Tickets"},
+		{"ticketPic":"media/food.png", "name":"Drink and Dining Deals"}
+	]}
+]}

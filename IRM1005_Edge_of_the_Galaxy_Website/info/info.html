@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en-ca">
+		<meta charset="UTF-8">
+		<title>Information | Edge of the Galaxy</title>
+		<link rel="stylesheet" type="text/css" href="info.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../headerfooter/headerfooter.css">
+		<script src="info.js"></script>
+		<script src="../headerfooter/headerfooter.js"></script>
+	</head>
+
+	<body>
+		<!-- header -->
+		<header id="header"> 
+			Park Temperature: 24&#8451; | Status: Closed
+			<form style="float:right;">
+				<input list="stuff" name="search">
+				<datalist id="stuff" >
+					<option value="season pass">
+					<option value="jedi training academy">
+					<option value="career">
+					<option value="help">
+					<option value="jabba hutt menu">
+				</datalist>
+				<!-- search bar (does not work) -->
+				<input type="submit" value="Search" class="search" formaction='../404/404.html'>
+			</form>
+		</header>
+		<nav id="header">
+			<table>
+				<tr>
+					<td class="logo">
+						<img src="../headerfooter/media/logow.png" width=200 id="logo">
+					</td>
+					<td class="dropdown">
+						<a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+						<div class="dropdown-content">
+							<a href="../padawan/padawan.html">Padawan (under 18)</a>
+							<a href="../jedi/jedi.html">Jedi (18+)</a>
+							<a href="../events/events.html">Special Events</a>
+							<a href="../academy/academy.html">Jedi Training Academy</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+						<div class="dropdown-content">
+							<a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+							<a href="../pass/pass.html">Passes</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+						<div class="dropdown-content">
+							<a href="../menu/menu.html">Menu</a>
+							<a href="../restaurantevents/restaurantevents.html">Events</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../info/info.html' class="dropdown-button">Information</a>
+						<div class="dropdown-content">
+							<a href="../faq/faq.html">FAQ</a>
+							<a href="../help/help.html">Help!</a>
+							<a href="../contact/contact.html">Contact Us</a>
+							<a href="../jobs/jobs.html">Careers</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</nav>
+		<div class="all">
+			<!--Image taken from https://wallpapercave.com/wp/oPRLSHe.png-->
+			<img src="media/star wars background.png" alt="star wars background" class="image"/>
+			<div class="first">Information</div>
+		</div>
+		<section>
+			<h2>Information listed below: </h2> <hr />
+			<h3>Hide and show button</h3>
+			<p>We have lots to offer at Edge of the Galaxy Park.</p>
+			<h5>Hours may vary. Please check accordingly. This means that the times may change.</h5>
+			<button id="Hideheading">Hide and show the heading above.</button>
+			<p id="demo"></p>
+		</section>
+		<table id="tablerows">
+			<caption>Hours of Operation</caption>
+			<tr>
+				<th>Hours of Operation</th>
+				<th>Time</th>
+			<tr>
+				<td>Monday to Friday</td>
+				<td>9am-7pm</td>
+			</tr>
+			<tr>
+				<td>Saturday </td>
+				<td>9am-8pm</td>
+			</tr>
+			<tr>
+				<td>Sunday</td>
+				<td>10am-6pm</td>
+		    </tr>
+		</table>
+		<table>
+			<caption>Hours of Operation</caption>
+			<tr>
+				<th>Hours of Operation</th>
+				<th>Time</th>
+			</tr>
+            <tr>
+              <td rowspan="2">Haunt Month (October 1st to October 31st) Monday through Sunday</td>
+              <td>9pm-1am</td>
+            </tr>
+		</table>
+		<p id="demo"></p>
+		<button id="hide">Hide</button>
+		<button id="show">Show</button>
+		<div class="para">
+			<p id="about">About us:</p> <br /> 
+			<p>You entered the Info Page. Welcome.</p>
+			<p id="notice">Edge of the Galaxy Park is committed to bringing you an unforgettable experience with the real world of Star Wars. <br />Guests will be able to explore planets, interact with the Galaxy’s citizens, and experience what it would truly be like to a true Galaxy denizen.</p> 
+			<p id="note"><i> Please note that the park will close in the case of severe weather conditions such as typhoons and hurricanes. Please check the weather in advance.</i></p>
+		</div>
+		<div class="container">
+			<a class="link2" href="../jobs/jobs.html">Jobs</a>
+			<br />
+			<a class="link2" href="../contact/contact.html">Contact Information</a>
+			<br />
+			<a class="link2" href="../map/map.html">Map</a>
+			<br />
+			<a class="link2" href="../help/help.html">Help</a>
+			<br />
+		</div>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<button class="btn1">Click for fade out effect. Wow.</button>
+		<button class="btn2">Fade in effect too! </button>
+		<!-- footer -->	 
+		<footer>
+			<p class="f">
+				<i>Q: Why did the angry Jedi cross the road?</i><br/>
+				<i>A: To get to the dark side.</i>
+			</p> 		
+			<b>Stay connected </b><br />
+			<form name="subscribe" method="post" class="esub"> <!-- email subscription form -->
+				<input type="email" name="email" id="subemail" size="20" required /> <br />
+				<input type="checkbox" name="confirm" required/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+				<input type="submit" value="Subscribe"/>
+			</form>
+			<br />
+			Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions. 
+			<br />
+			&copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved
+		</footer>
+	</body>
+</html>

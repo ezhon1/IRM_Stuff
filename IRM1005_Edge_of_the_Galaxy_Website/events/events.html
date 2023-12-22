@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Special Events</title>
+        <link rel="stylesheet" type="text/css" href="events.css">
+        <link rel="stylesheet" type="text/css" href="../headerfooter/headerfooter.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="events.js"></script>
+        <script src="../headerfooter/headerfooter.js"></script>
+    </head>
+
+    <body onload="showSlides(slideIndex)">
+        <!-- header -->
+        <header id="header">
+            Park Temperature: 24&#8451; | Status: Closed
+            <form style="float:right;">
+                <input list="stuff" name="search">
+                <datalist id="stuff">
+                    <option value="season pass">
+                    <option value="jedi training academy">
+                    <option value="career">
+                    <option value="help">
+                    <option value="jabba hutt menu">
+                </datalist>
+                <!-- search bar (does not work) -->
+                <input type="submit" value="Search" class="search" formaction='../404/404.html'>
+            </form>
+        </header>
+        <nav id="header">
+            <table>
+                <tr>
+                    <td class="logo">
+                        <img src="../headerfooter/media/logow.png" width=200 id="logo">
+                    </td>
+                    <td class="dropdown">
+                        <a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+                        <div class="dropdown-content">
+                            <a href="../padawan/padawan.html">Padawan (under 18)</a>
+                            <a href="../jedi/jedi.html">Jedi (18+)</a>
+                            <a href="../events/events.html">Special Events</a>
+                            <a href="../academy/academy.html">Jedi Training Academy</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+                        <div class="dropdown-content">
+                            <a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+                            <a href="../pass/pass.html">Passes</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+                        <div class="dropdown-content">
+                            <a href="../menu/menu.html">Menu</a>
+                            <a href="../restaurantevents/restaurantevents.html">Events</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../info/info.html' class="dropdown-button">Information</a>
+                        <div class="dropdown-content">
+                            <a href="../faq/faq.html">FAQ</a>
+                            <a href="../help/help.html">Help!</a>
+                            <a href="../contact/contact.html">Contact Us</a>
+                            <a href="../jobs/jobs.html">Careers</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <div class="specialevents">
+            <img src="media/specialevents.jpeg" alt="Star Wars Edge of the Galaxy's Special Events" title="Special Events" class="image">
+            <!--source: https://disneyparks.disney.go.com/blog/2016/02/new-star-wars-nighttime-spectacular-announced-set-to-make-theme-park-history/-->
+            <p id="h1">Special Events</p>
+            <h5>
+                <div class="specialeventstext">
+                    <mark>Register for some of our events</mark>
+                </div>
+            </h5>
+            <button id="button"><a href="#my_anchor">Explore more.</a></button>
+        </div>
+        <h1 id="h1text">Special Events</h1>
+        <h2>Event Registration form</h2>
+        <form name="form" method="get" id="form" onsubmit="appendNames()">
+            <fieldset width="43%" class=“field_set”>
+                <legend style="text-align:left;font-size: 25px"><strong>Group Registration</strong></legend>
+                First Name: <br />
+                <input type="text" name="fname" required><br /> 
+                Last Name: <br/>
+                <input type="text" name="lname" required> <br /> 
+                Phone Number: <br/>
+                <input type="text" name="phone number" required> <br /> 
+                Email: <br/>
+                <input type="text" name="email" required> <br /> 
+                Age: <br />
+                <input type="radio" name="age" value="4-12 years old" />4-12 years old <br />
+                <input type="radio" name="age" value="13-17 years old" />13-17 years old <br />
+                <input type="radio" name="age" value="18+ years old" />18+ <br />
+                <textarea id="myTextarea" name="comment section" rows="10" placeholder="Please enter any comments here."></textarea>
+                <br /> Number of guests (including yourself):
+                <div class="slidecontainer">
+                    <input type="range" id="myRange" name="a" value="10" min="2" max="100" class="slider" oninput="x.value=parseInt(a.value)"> =
+                    <output name="x" for="a"></output>
+                </div>
+                Choice of event: <br />
+                <select name="events">
+                    <option value="event 1" selected>Pod racing competition 2019 (all guests welcome to participate)</option>
+                    <option value="event 2">Lightsaber Duels (daily tournaments and yearly championship)</option>
+                    <option value="event 3">Edge of the Galaxy’s first Miss Galaxy Competition</option>
+                </select>
+                <br />
+                <br />
+                <input id="submit" type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+        <br />
+        <!-- Slideshow container -->
+        <div class="container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="media/Star Wars Millennium Falcon.jpg" alt="Star Wars Millenium Falcon" title="Star Wars Millenium Falcon" style="width:100%">
+                <div class="text">Star Wars Millennium Falcon</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="media/Star Wars hotel.jpg" alt="Star Wars hotel" title="Star Wars hotel" style="width:100%">
+                <div class="text">Star Wars hotel</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="media/Star Wars Galactic Spectacular.jpg" alt="Star Wars Galactic Spectacular" title="Star Wars Galactic Spectacular" style="width:100%">
+                <div class="text">Star Wars Galactic Spectacular</div>
+            </div>
+            <!--Dots and Circles-->
+            <div style="text-align:center">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <h3 id="Upcoming">New to the Galaxy! (Upcoming events):</h3>
+        </div>
+        <div id="animate">
+            <h4 id="intro">October is Haunt Month: Explore the Galaxy’s creepiest planets and meet its creepiest denizens.</h4>
+        </div>
+        <div class="clearfix">
+            <img id="img" src="media/darthvader.jpg" alt="Darth Vader Meet and Greet" title="Meet and Greet with Darth Vader" width="270" height="290">
+            <!--source: https://www.d-cot.com/disney-news/new-meet-and-greet-at-disneys-hollywood-studios/-->
+            <div id="flip">
+                <h2 id="my_anchor">Current events</h2>
+            </div>
+            <!--Current events and Calendar-->
+            <div id="panel">
+                <ol>
+                    <li>Be a Wookie for a day.</li>
+                    <li>Meet and Greets
+                        <ul>
+                            <li>Darth Vader meet and greet.</li>
+                            <li>Royal Visit: Meet Queen Amidala and her retinue.</li>
+                        </ul>
+                    </li>
+                    <li>Sith recruitment fair 2020 (please bring updated resume and membership fee)</li>
+                </ol>
+            </div>
+        </div>
+       <!-- footer -->
+       <footer>
+        <p class="f">
+            What kind of money do they use in space?
+            <br /> Tell me.
+            <br /> Starbucks
+        </p>
+        <b>Stay connected </b><br />
+        <form name="subscribe" method="post" class="esub"> <!-- email subscription form -->
+            <input type="email" name="email" id="subemail" size="20" required /> <br />
+            <input type="checkbox" name="confirm" id="subcheck"/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+            <input type="submit" id="subsub" value="Subscribe" disabled/>
+        </form>
+        <br /> Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions.
+        <br /> &copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved
+        </footer>
+    </body>
+</html>

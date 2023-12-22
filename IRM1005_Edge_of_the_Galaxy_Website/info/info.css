@@ -1,0 +1,198 @@
+/* The font "baskerville" */
+body{
+    font-family: 'baskerville', 'baskerville old face', serif;
+	background-color: white;
+	background-image: url("media/logo1.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 70% 74%; 
+    background-size: 150px 90px;
+}
+
+.all {
+	position: relative;
+	text-align: center;
+	color: white;
+ }
+ 
+.first {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+	font-size: 60px;
+}
+
+.image {
+	width: 100%;
+	height: 380px;
+	z-index: -99;
+}
+
+h2 { 
+	color: #ce5801;
+	margin: center;
+	text-align: center;
+	background-color: black;
+}
+
+table, th, td {
+	border: 1px solid;
+	color: black;
+	padding: 15px;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+}
+
+th {
+	height: 50px; 
+	background-color: #004080;
+	color: white;
+}
+
+#note {
+	font-style: italic;
+	background-color: rgb(219, 219, 51);
+	text-align: center;
+}
+
+#about, #notice ::first-letter {
+	font-size: 300%;
+	color: rgb(12, 25, 97);
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+td {
+	height: 50px;
+	vertical-align: bottom;
+}
+
+th, td {
+	border-bottom: 2px solid rgb(236, 235, 235);
+}
+
+tr:nth-child(even) {
+	background-color: rgb(172, 172, 172);
+}
+
+#tablerows tr:hover {
+	background-color: #e4e5e6;
+	cursor: pointer;
+}
+
+caption {
+	font-style: bold;
+	font-size: 35px;
+	color: #004080;	
+}
+
+/* unvisited link*/
+a.link2:link {
+	color: #004080;
+}
+
+/* visited link */
+a.link2:visited {
+	color: #004080;
+}
+  
+/* mouse over link */
+a.link2:hover {
+	color: #9b0000;
+}
+  
+/* selected link */
+a.link2:active {
+	color: #004080;
+}
+
+.container {
+	text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-button {
+    display: block;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(126, 122, 122); 
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(207, 202, 202); 
+}
+
+.vid {
+    margin: 0 auto;
+    border: 20px solid rgb(31, 29, 29);
+}
+
+/* Portrait and Landscape Modes for iPhone X*/
+@media only screen 
+	and (min-device-width: 375px) 
+	and (max-device-width: 812px) 
+	and (-webkit-min-device-pixel-ratio: 3) { 
+}
+
+/* change size of title based on size of screen */
+@media (max-width: 500px) {
+	h2
+	{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 300px) {
+	h2
+	{
+		font-size: 12px;
+	}
+}
+
+#myBtn {
+	background-color: #9b0000;
+	border-radius: 10px;
+	z-index: 99;
+	bottom: 20px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 1px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004080;   
+    color: white;
+}

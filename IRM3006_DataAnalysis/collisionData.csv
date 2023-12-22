@@ -1,0 +1,330 @@
+,Accident_Date,Accident_Time,Location,Accident_Location,Classification_of_Accident,Initial_Impact_Type,Environment_Condition,Light,Road_Surface_Condition,Traffic_Control,Traffic_Control_Condition,No__of_Vehicles,No__of_Injuries
+503,2015/08/27,6:04 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,0
+760,2015/08/28,4:17 PM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,1
+792,2015/08/29,3:30 PM,COLDREY AVE @ KIRKWOOD AVE (0006736),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+965,2015/09/01,11:55 AM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1779,2015/09/28,10:55 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1857,2015/09/23,1:41 PM,HAWTHORNE RD @ LEITRIM RD (0009269),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,4,2
+2271,2015/10/21,3:45 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2460,2015/10/14,6:08 PM,HERON RD @ 155 W OF BANK ST/CANADIAN TIRE SC (0008219),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+2518,2015/10/17,4:38 PM,HAWTHORNE RD @ LEITRIM RD (0009269),03 - At intersection,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2545,2015/10/18,9:49 AM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2701,2015/10/27,2:37 PM,BRONSON AVE @ POWELL AVE (0007212),03 - At intersection,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,1
+2956,2015/10/16,2:00 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+3625,2015/11/19,11:53 AM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+4156,2015/11/21,9:50 AM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+4512,2015/11/28,11:36 AM,WALKLEY RD @ GLENHAVEN PRIV (0011424),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+4916,2015/12/12,11:16 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5015,2015/01/28,9:57 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5229,2015/01/27,11:59 AM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5240,2015/12/24,10:48 AM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5444,2015/01/26,8:56 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5456,2015/01/26,9:30 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5512,2015/01/24,3:15 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5884,2015/12/23,10:46 AM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6214,2015/01/31,4:30 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6464,2015/01/31,2:30 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7554,2015/01/06,8:51 AM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+8525,2015/03/01,8:43 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8621,2015/03/17,10:15 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8699,2015/03/05,12:08 PM,HERON RD @ 155 W OF BANK ST/CANADIAN TIRE SC (0008219),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8849,2015/02/27,9:01 AM,COLDREY AVE @ KIRKWOOD AVE (0006736),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+9283,2015/04/12,1:48 PM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),03 - At intersection,02 - Non-fatal injury,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+9476,2015/04/03,3:13 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9497,2015/04/04,5:38 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9642,2015/03/20,2:53 PM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+10297,2015/05/06,4:25 PM,WALKLEY RD @ GLENHAVEN PRIV (0011424),03 - At intersection,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,1
+10337,2015/05/07,4:38 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10403,2015/05/03,5:07 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10783,2015/04/22,3:50 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10878,2015/04/29,2:42 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11382,2015/05/19,7:11 PM,COLDREY AVE @ KIRKWOOD AVE (0006736),02 - Intersection related,03 - P.D. only,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,0
+11494,2015/05/21,7:25 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11539,2015/05/22,4:27 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11585,2015/06/02,5:22 PM,HERON RD @ 155 W OF BANK ST/CANADIAN TIRE SC (0008219),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+11712,2015/05/26,9:43 AM,COLDREY AVE @ KIRKWOOD AVE (0006736),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+11727,2015/05/27,3:13 PM,GLADSTONE AVE @ ROCHESTER ST (0006496),03 - At intersection,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,2
+11802,2015/06/01,1:20 PM,BRONSON AVE @ POWELL AVE (0007212),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11985,2015/05/14,9:25 AM,GLADSTONE AVE @ ROCHESTER ST (0006496),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12823,2015/06/23,8:00 AM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12933,2015/06/24,7:53 AM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+13152,2015/07/03,3:23 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13185,2015/07/04,2:28 PM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13225,2015/07/06,12:10 PM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,3
+13232,2015/07/06,12:26 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+13241,2015/07/06,2:59 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13542,2015/07/02,9:35 AM,BRONSON AVE @ POWELL AVE (0007212),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13583,2015/07/07,2:45 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,2
+13697,2015/07/14,8:10 AM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+13788,2015/07/09,5:10 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14039,2015/07/29,5:34 PM,COLDREY AVE @ KIRKWOOD AVE (0006736),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14275,2015/01/15,11:59 AM,COLDREY AVE @ KIRKWOOD AVE (0006736),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14290,2015/08/10,6:38 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+14342,2015/07/26,3:33 PM,BRONSON AVE @ POWELL AVE (0007212),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+14432,2015/08/08,3:36 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,3
+14451,2015/08/03,10:21 AM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14836,2015/08/05,5:06 PM,COLDREY AVE @ KIRKWOOD AVE (0006736),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14850,2015/08/05,7:58 AM,GLADSTONE AVE @ ROCHESTER ST (0006496),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+27,2016/09/24,3:44 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+102,2016/10/05,10:25 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+110,2016/10/05,12:30 PM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+240,2016/10/16,4:17 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+287,2016/10/17,8:16 AM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+558,2016/10/14,3:01 PM,HAWTHORNE RD @ LEITRIM RD (0009269),03 - At intersection,03 - P.D. only,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,0
+581,2016/10/14,8:16 AM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1239,2016/10/25,10:00 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+1270,2016/10/26,11:22 AM,INNES RD @ ORLEANS BLVD (0003611),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1305,2016/10/27,1:32 PM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1370,2016/01/23,3:17 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1536,2016/11/02,11:27 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1680,2016/11/08,11:32 AM,GLADSTONE AVE @ ROCHESTER ST (0006496),03 - At intersection,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,1
+2079,2016/11/18,1:28 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+3369,2016/12/10,12:52 PM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+3376,2016/12/10,3:31 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+3460,2016/12/19,3:05 PM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+4292,2016/02/08,8:50 AM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+4656,2016/02/02,5:10 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+4899,2016/12/30,1:43 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5043,2016/02/22,1:47 PM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),02 - Intersection related,02 - Non-fatal injury,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,2
+5207,2016/02/13,9:28 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5654,2016/02/14,3:45 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6343,2016/03/17,5:13 PM,HAWTHORNE RD @ LEITRIM RD (0009269),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,1
+6613,2016/03/17,10:40 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6686,2016/03/04,3:34 PM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7598,2016/04/12,6:41 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,2
+7764,2016/04/15,12:53 PM,HAWTHORNE RD @ LEITRIM RD (0009269),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8175,2016/04/28,10:10 AM,GLADSTONE AVE @ ROCHESTER ST (0006496),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+8178,2016/04/28,10:30 AM,INNES RD @ ORLEANS BLVD (0003611),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8759,2016/04/24,2:07 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8769,2016/04/25,1:47 PM,COLDREY AVE @ KIRKWOOD AVE (0006736),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8861,2016/04/21,12:48 PM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,1
+9153,2016/06/09,7:16 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9407,2016/05/27,2:07 PM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9433,2016/06/03,7:33 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9535,2016/05/30,1:50 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9578,2016/06/01,5:44 PM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9616,2016/06/02,12:47 PM,COLDREY AVE @ KIRKWOOD AVE (0006736),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9718,2016/05/22,11:04 AM,INNES RD @ ORLEANS BLVD (0003611),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9763,2016/06/04,12:52 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9868,2016/05/19,2:55 PM,WALKLEY RD @ GLENHAVEN PRIV (0011424),03 - At intersection,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,1
+9905,2016/05/20,12:22 PM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+10307,2016/06/27,2:50 PM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10447,2016/06/21,1:01 PM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10742,2016/07/05,4:20 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11015,2016/07/08,12:30 PM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11150,2016/07/08,8:55 AM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+11397,2016/07/18,8:08 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11478,2016/07/12,4:00 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11609,2016/07/28,4:00 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11735,2016/07/20,10:36 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11781,2016/07/21,1:08 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,2
+12960,2016/08/23,1:35 PM,TENTH LINE RD @ VANGUARD DR (0004632),02 - Intersection related,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+12972,2016/08/23,2:00 PM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+13097,2016/09/23,6:00 PM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13135,2016/09/07,2:22 PM,GLADSTONE AVE @ ROCHESTER ST (0006496),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,2
+13242,2016/08/30,5:06 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13653,2016/09/10,4:49 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+13677,2016/01/20,3:28 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13693,2016/01/21,1:34 PM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+23,10/5/2017,3:20 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+735,10/19/2017,11:48 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+819,10/2/2017,7:08 AM,COLDREY AVE @ KIRKWOOD AVE (0006736),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1166,10/27/2017,11:16 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1303,11/4/2017,11:29 AM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),02 - Intersection related,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1672,11/6/2017,4:00 PM,TENTH LINE RD @ VANGUARD DR (0004632),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+2195,11/22/2017,4:17 PM,INNES RD @ ORLEANS BLVD (0003611),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,1
+3030,12/13/2017,3:15 PM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+3735,12/14/2017,2:26 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+4151,12/29/2017,12:30 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5156,2/20/2017,2:44 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,5
+5444,2/10/2017,8:06 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5531,2/9/2017,12:15 PM,GLADSTONE AVE @ ROCHESTER ST (0006496),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5547,1/2/2017,1:43 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5730,2/10/2017,4:01 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6689,3/17/2017,11:45 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6730,3/17/2017,9:33 AM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+7308,3/25/2017,9:09 AM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7774,4/12/2017,3:21 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7827,4/5/2017,3:30 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8260,4/28/2017,7:56 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+8780,4/17/2017,12:09 PM,COLDREY AVE @ KIRKWOOD AVE (0006736),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8814,4/18/2017,6:38 PM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,2
+9095,5/18/2017,8:47 AM,INNES RD @ ORLEANS BLVD (0003611),03 - At intersection,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,1
+9291,6/5/2017,9:40 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9535,5/23/2017,10:16 AM,GLADSTONE AVE @ ROCHESTER ST (0006496),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+9591,5/24/2017,11:26 AM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9771,1/13/2017,2:41 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+9876,6/2/2017,1:39 PM,INNES RD @ ORLEANS BLVD (0003611),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10471,6/22/2017,4:30 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10618,6/15/2017,6:27 PM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10764,6/12/2017,4:00 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,99 - Other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10842,6/24/2017,2:28 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11130,7/6/2017,5:14 PM,WALKLEY RD @ GLENHAVEN PRIV (0011424),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11809,7/22/2017,8:41 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+11884,7/25/2017,12:23 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11938,7/29/2017,2:46 PM,GLADSTONE AVE @ ROCHESTER ST (0006496),03 - At intersection,02 - Non-fatal injury,99 - Other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+12310,8/15/2017,6:18 AM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12591,8/17/2017,5:16 PM,HAWTHORNE RD @ LEITRIM RD (0009269),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,5,0
+12607,8/17/2017,9:16 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12816,8/4/2017,1:30 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12927,8/26/2017,3:16 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+12979,8/28/2017,6:42 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13000,9/14/2017,9:00 AM,WALKLEY RD @ GLENHAVEN PRIV (0011424),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13097,8/31/2017,5:46 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+13514,1/22/2017,4:30 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13564,9/8/2017,8:41 AM,COLDREY AVE @ KIRKWOOD AVE (0006736),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,2
+13784,9/19/2017,3:15 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+430,2018/10/13,2:17 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+647,2018/10/10,10:30 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1166,2018/10/18,4:18 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1465,2018/10/20,2:15 PM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1839,2018/10/22,3:00 PM,WALKLEY RD @ GLENHAVEN PRIV (0011424),02 - Intersection related,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,2
+1897,2018/10/23,8:15 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2145,2018/11/15,2:30 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2599,2018/11/22,11:00 AM,WALKLEY RD @ GLENHAVEN PRIV (0011424),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2721,2018/11/07,12:45 PM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+3661,2018/12/07,1:15 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+4544,2018/12/19,1:25 PM,GLADSTONE AVE @ ROCHESTER ST (0006496),03 - At intersection,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,1
+4676,2018/12/29,2:46 PM,TENTH LINE RD @ VANGUARD DR (0004632),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+4762,2018/12/27,11:50 AM,TENTH LINE RD @ VANGUARD DR (0004632),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5270,2018/02/02,12:57 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+5427,2018/02/02,9:15 AM,BRONSON AVE @ POWELL AVE (0007212),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6579,2018/02/25,12:42 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6729,2018/02/22,3:01 PM,WALKLEY RD @ GLENHAVEN PRIV (0011424),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7090,2018/04/05,8:00 AM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,0
+7111,2018/03/19,2:30 PM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7164,2018/03/20,8:35 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7283,2018/03/15,5:48 PM,WALKLEY RD @ GLENHAVEN PRIV (0011424),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,3
+7297,2018/03/15,9:38 AM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7553,2018/04/06,8:39 AM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7629,2018/03/16,11:08 AM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7871,2018/03/23,1:52 PM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8134,2018/04/28,1:10 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8508,2018/04/24,4:26 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+8722,2018/04/09,5:06 PM,WALKLEY RD @ GLENHAVEN PRIV (0011424),02 - Intersection related,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9070,2018/05/26,8:01 PM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9075,2018/05/27,1:33 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9392,2018/05/13,3:10 PM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9408,2018/05/22,8:18 AM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9534,2018/05/09,4:03 PM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+9683,2018/05/30,6:55 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9772,2018/05/20,12:50 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+9932,2018/05/28,5:55 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,02 - Non-fatal injury,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,1
+10247,2018/06/03,3:38 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10411,2018/06/21,4:25 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10482,2018/06/22,8:35 AM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10867,2018/06/26,1:08 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10959,2018/06/15,4:03 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11084,2018/07/09,11:21 AM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11143,2018/07/02,9:05 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+11177,2018/07/03,6:10 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11356,2018/07/04,3:05 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11950,2018/07/05,3:14 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,4,1
+12178,2018/08/07,4:32 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12226,2018/07/30,1:56 PM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12537,2018/08/02,3:34 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12553,2018/08/02,6:54 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+12607,2018/08/16,8:29 AM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12820,2018/07/22,12:16 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+12829,2018/07/22,4:12 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12886,2018/07/23,9:36 AM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+12969,2018/07/28,3:31 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13479,2018/08/27,11:38 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13486,2018/08/27,3:00 PM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13598,2018/09/10,10:08 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13718,2018/09/14,6:10 PM,GLADSTONE AVE @ ROCHESTER ST (0006496),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13754,2018/08/31,3:18 PM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,4
+13915,2018/08/30,6:24 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14010,2018/09/14,9:35 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14103,2018/09/17,2:44 PM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14180,2018/09/25,12:23 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14244,2018/09/20,1:20 PM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14286,2018/09/20,8:30 AM,TENTH LINE RD @ VANGUARD DR (0004632),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+217,2019/08/23,12:43 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,0
+278,2019/09/04,10:44 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+339,2019/09/06,9:50 AM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+803,2019/08/25,3:45 PM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+872,2019/08/27,8:00 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,99 - Other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+881,2019/08/27,8:55 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+971,2019/09/01,1:10 PM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+1111,2019/09/24,12:17 PM,HAWTHORNE RD @ LEITRIM RD (0009269),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+1663,2019/09/26,3:30 PM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1935,2019/09/14,10:37 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+1972,2019/09/16,10:15 AM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2026,2019/10/07,2:30 PM,TENTH LINE RD @ VANGUARD DR (0004632),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2096,2019/10/08,4:41 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2373,2019/10/15,2:30 PM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+2712,2019/10/09,2:04 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+2850,2019/10/02,4:30 PM,HAWTHORNE RD @ LEITRIM RD (0009269),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+3051,2019/10/24,5:03 PM,BRONSON AVE @ POWELL AVE (0007212),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+3074,2019/11/05,8:59 AM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,2
+3876,2019/10/28,10:56 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+4650,2019/11/19,2:21 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6620,2019/12/13,11:11 AM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+6762,2019/12/22,2:45 PM,HAWTHORNE RD @ LEITRIM RD (0009269),02 - Intersection related,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+7031,2019/01/31,3:30 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+8048,2019/02/11,12:10 PM,HAWTHORNE RD @ LEITRIM RD (0009269),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9401,2019/03/15,4:00 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9794,2019/03/04,3:35 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+9883,2019/03/08,12:28 PM,GLADSTONE AVE @ ROCHESTER ST (0006496),02 - Intersection related,03 - P.D. only,07 - SMV other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,1,0
+9946,2019/03/09,2:09 PM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10065,2019/03/29,11:51 AM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+10199,2019/04/11,12:33 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10369,2019/03/22,5:20 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10532,2019/04/12,11:42 AM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,02 - Non-fatal injury,99 - Other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+10548,2019/04/12,12:00 PM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),02 - Intersection related,03 - P.D. only,99 - Other,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10762,2019/04/06,5:40 PM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+10842,2019/03/20,11:51 AM,WALKLEY RD @ GLENHAVEN PRIV (0011424),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,1
+11075,2019/05/04,9:25 AM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11076,2019/05/04,9:45 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+11127,2019/05/06,2:55 PM,BRONSON AVE @ POWELL AVE (0007212),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12075,2019/05/26,2:22 PM,TENTH LINE RD @ VANGUARD DR (0004632),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+12090,2019/05/26,7:22 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12276,2019/05/31,7:06 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12426,2019/05/22,5:05 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12657,2019/05/17,4:19 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12692,2019/05/18,10:06 AM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+12720,2019/05/18,3:42 PM,BANK ST @ RIVERSIDE DR S (0002704),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+12727,2019/01/14,4:00 PM,HAWTHORNE RD @ LEITRIM RD (0009269),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12765,2019/01/15,1:30 PM,TENTH LINE RD @ VANGUARD DR (0004632),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12790,2019/05/30,1:18 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+12872,2019/05/16,2:11 PM,COLDREY AVE @ KIRKWOOD AVE (0006736),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,3
+13058,2019/06/18,1:14 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13107,2019/06/18,7:58 AM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13359,2019/06/08,5:50 PM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+13393,2019/06/09,11:34 AM,CEDARVIEW RD @ FALLOWFIELD RD (0001603),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13443,2019/06/10,6:56 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13488,2019/06/04,7:26 PM,BRONSON AVE @ POWELL AVE (0007212),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13523,2019/06/05,6:15 PM,WALKLEY RD @ GLENHAVEN PRIV (0011424),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+13527,2019/06/05,7:57 AM,TENTH LINE RD @ VANGUARD DR (0004632),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+14056,2019/06/24,5:00 PM,HAWTHORNE RD @ LEITRIM RD (0009269),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14125,2019/06/25,7:45 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14161,2019/06/30,9:13 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14271,2019/07/08,1:06 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14440,2019/07/14,1:05 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,02 - Non-fatal injury,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,2
+14526,2019/06/27,7:30 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14530,2019/06/27,8:00 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14533,2019/07/03,11:37 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14646,2019/06/26,6:19 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14662,2019/01/17,11:15 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14721,2019/07/10,2:00 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14758,2019/07/10,8:40 AM,HAWTHORNE RD @ LEITRIM RD (0009269),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+14897,2019/07/03,8:18 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15027,2019/07/18,7:07 PM,AVIATION PKWY @ MONTREAL RD (0008799),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15056,2019/07/19,12:35 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15085,2019/07/19,7:40 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,02 - Non-fatal injury,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+15144,2019/08/01,10:20 AM,INNES RD @ ORLEANS BLVD (0003611),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15163,2019/08/01,5:00 PM,HERON RD @ 155 W OF BANK ST/CANADIAN TIRE SC (0008219),03 - At intersection,03 - P.D. only,05 - Turning movement,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15200,2019/08/02,10:04 AM,TENTH LINE RD @ VANGUARD DR (0004632),02 - Intersection related,02 - Non-fatal injury,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+15208,2019/08/02,2:57 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15253,2019/07/27,10:40 AM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15265,2019/07/27,6:44 PM,CATHERINE ST @ KENT ST (0002707),03 - At intersection,03 - P.D. only,04 - Sideswipe,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15400,2019/08/08,1:10 PM,PRINCE OF WALES DR @ MEADOWLANDS DR/HOG'S BACK (0001629),03 - At intersection,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,2
+15413,2019/08/08,3:02 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+15517,2019/08/06,11:28 AM,CATHERINE ST @ KENT ST (0002707),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+15663,2019/07/16,6:10 PM,HAWTHORNE RD @ LEITRIM RD (0009269),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15688,2019/07/23,9:28 AM,BANK ST @ RIVERSIDE DR S (0002704),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,3,0
+15834,2019/07/18,11:23 AM,WALKLEY RD @ GLENHAVEN PRIV (0011424),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+15880,2019/07/30,5:45 PM,AVIATION PKWY @ MONTREAL RD (0008799),02 - Intersection related,02 - Non-fatal injury,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,1
+15977,2019/07/26,3:43 PM,INNES RD @ ORLEANS BLVD (0003611),02 - Intersection related,03 - P.D. only,03 - Rear end,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0
+16205,2019/08/10,4:30 PM,HAWTHORNE RD @ LEITRIM RD (0009269),03 - At intersection,03 - P.D. only,02 - Angle,01 - Clear,01 - Daylight,01 - Dry,01 - Traffic signal,01 - Functioning,2,0

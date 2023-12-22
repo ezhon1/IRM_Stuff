@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Menu</title>
+        <link rel="stylesheet" type="text/css" href="menu.css">
+        <link rel="stylesheet" type="text/css" href="../headerfooter/headerfooter.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="menu.js"></script>
+        <script src="../headerfooter/headerfooter.js"></script>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header id="header">
+            Park Temperature: 24&#8451; | Status: Closed
+            <form style="float:right;">
+                <input list="stuff" name="search">
+                <datalist id="stuff">
+                    <option value="season pass">
+                    <option value="jedi training academy">
+                    <option value="career">
+                    <option value="help">
+                    <option value="jabba hutt menu">
+                </datalist>
+                <!-- search bar (does not work) -->
+                <input type="submit" value="Search" class="search" formaction='../404/404.html'>
+            </form>
+        </header>
+        <nav id="header">
+            <table>
+                <tr>
+                    <td class="logo">
+                        <img src="../headerfooter/media/logow.png" width=200 id="logo">
+                    </td>
+                    <td class="dropdown">
+                        <a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+                        <div class="dropdown-content">
+                            <a href="../padawan/padawan.html">Padawan (under 18)</a>
+                            <a href="../jedi/jedi.html">Jedi (18+)</a>
+                            <a href="../events/events.html">Special Events</a>
+                            <a href="../academy/academy.html">Jedi Training Academy</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+                        <div class="dropdown-content">
+                            <a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+                            <a href="../pass/pass.html">Passes</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+                        <div class="dropdown-content">
+                            <a href="../menu/menu.html">Menu</a>
+                            <a href="../restaurantevents/restaurantevents.html">Events</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../info/info.html' class="dropdown-button">Information</a>
+                        <div class="dropdown-content">
+                            <a href="../faq/faq.html">FAQ</a>
+                            <a href="../help/help.html">Help!</a>
+                            <a href="../contact/contact.html">Contact Us</a>
+                            <a href="../jobs/jobs.html">Careers</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <!--Menu-->
+        <div class="menu">
+            <img src="media/starwarsgalaxysedgefoodmenu.jpg" alt="Star Wars Edge of the Galaxy's Menu" class="image" title="Star Wars Menu">
+            <!--source: https://www.slashfilm.com/star-wars-galaxys-edge-food-menu/-->
+            <p id="h1" onmouseover="restauranteventsheading1();" onmouseout="restauranteventsheading2()">Menu</p>
+            <h5>
+                <div class="menutext">
+                    <mark>Check out our amazing food.</mark>
+                </div>
+            </h5>
+            <button class="button"><a href="#my_anchor">Explore more.</a></button>
+        </div>
+            <h1 id="my_anchor" onclick="changeText(this)">Menu</h1>
+            <hr>
+            <p>Prices are as follows:</p>
+            <h3 id=rest1link>
+                <i class="material-icons">fastfood</i>
+                Oga's Cantina
+            </h3>
+            <p style="text-align: center"><i>Kids (12 and under) eat for $10 all day!</i></p>
+            <section>
+                <table id="tablerows">
+                    <tr>
+                        <th>Meal</th>
+                        <th>Food and drinks</th>
+                        <th>Description</th>
+                        <th>Prices</th>
+                    </tr>
+                    <tr>
+                        <td>Morning specialties</td>
+                        <td>Black Spire Brew</td>
+                        <td>Cold Brew Joffrey’s Coffee, honey, falernum, passion fruit, and citrus</td>
+                        <td>$4.99</td>
+                    </tr>
+                    <tr>
+                        <td>Afternoon and evening drinks</td>
+                        <td>Jabba Juice</td>
+                        <td>Simply Orange with pineapple, kiwi, cantaloupe, and blueberry popping pearls</td>
+                        <td>$3.99</td>
+                    </tr>
+                    <tr>
+                        <td>Desserts</td>
+                        <td>Batuu-bon</td>
+                        <td>Chocolate cake with white chocolate mousse and coffee custard</td>
+                        <td>$5.99</td>
+                    </tr>
+                </table>
+            </section>
+            <br />
+            <!--Oga's Cantina restaurant menu-->
+            <div class="container">
+                <img class="image" id="food" src="media/food.jpg" width="400" height="300" alt="Star Wars galaxy edge food." title="Star Wars food">
+                <!--star wars food image source: https://www.eater.com/2019/2/28/18243694/disney-star-wars-galaxy-edge-park-food-orlando-disneyland-->
+                <div class="middle">
+                    <div class="text">Try some of our drinks and beverages.</div>
+                </div>
+            </div>
+            <h3 id=rest2link> 
+                <i class="material-icons">restaurant</i>
+                Docking Bay 7 Food and Cargo
+            </h3>
+            <p style="text-align: center"><i>Meals include choice of small low-fat milk or small Dasani water</i></p>
+            <section>
+                <table id="tablerows">
+                    <tr>
+                        <th>Meal</th>
+                        <th>Food and drinks</th>
+                        <th>Description</th>
+                        <th>Prices</th>
+                    </tr>
+                    <tr>
+                        <td>Breakfast</td>
+                        <td>Brights Suns Morning</td>
+                        <td>Three-cheese egg bite, pork sausage, purple potato hash, mini Mustafarian laval roll</td>
+                        <td>$6.99</td>
+                    </tr>
+                    <tr>
+                        <td>Kids' Meals (for guests 3-9) </td>
+                        <td>Bright Suns Younglings Breakfast</td>
+                        <td>Scrambled eggs, purple potatoes, fresh fruit</td>
+                        <td>$3.99</td>
+                    </tr>
+                    <tr>
+                        <td>Specialty Beverages</td>
+                        <td>Moof Juice</td>
+                        <td>Simply Fruit Punch and Simply Orange with chipotle-pineapple</td>
+                        <td>$5.99</td>
+                    </tr>
+                </table>
+            </section>
+            <br />
+            <!--Docking Bay 7 Food and Cargo restaurant menu-->
+            <!--Menus Adapted from https://disneyparks.disney.go.com/blog/2019/05/foodie-guide-to-star-wars-galaxys-edge/-->
+            <div class="container">
+                <img class="image" id="desserts" src="media/desserts.jpg" width="400" height="300" alt="Star Wars dessert: Chocolate cake with white chocolate mousse and coffee custard" title="Star Wars desserts">
+                <!--star wars dessert image source: https://disneyparks.disney.go.com/blog/2019/05/foodie-guide-to-star-wars-galaxys-edge/-->
+                <div class="middle">
+                    <div class="text">Enjoy our tasty treats.</div>
+                </div>
+            </div>
+            <div class="box1">
+                <h2>Add meals to your cart.</h2>
+                <p>Product:
+                    <select id="product">
+                        <option value="Batuu-bon">Batuu-bon</option>
+                        <option value="Moof Juice">Moof Juice</option>
+                        <option value="Bright Suns Younglings Breakfast">Bright Suns Younglings Breakfast</option>
+                        <option value="Jabba Juice">Jabba Juice</option>
+                        <option value="Black Spire Brew">Black Spire Brew</option>
+                        <option value="Bright Suns Morning">Brights Suns Morning</option>
+                    </select>
+                </p>
+                <p>Size:
+                    <select id="size">
+                        <option value="Small">Small</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="Extra Large">Extra Large</option>
+                    </select>
+                </p>
+                <button id="menubutton" onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="box1">
+                <h2>Shopping Cart</h2>
+                <div id="cart">
+                    <i class="material-icons">add_shopping_cart</i>
+                </div>
+                <button id="menubutton" onclick="checkout()">Checkout</button>
+            </div>
+            <!-- footer -->
+            <footer>
+                <p class="f">
+                    What kind of car does a Jedi drive?
+                    <br /> I don't know.
+                    <br /> A toy yoda.</p>
+                <b>Stay connected </b><br />
+                <form name="subscribe" method="post" class="esub"> <!-- email subscription form -->
+				<input type="email" name="email" id="subemail" size="20" required /> <br />
+				<input type="checkbox" name="confirm" id="subcheck"/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+				<input type="submit" id="subsub" value="Subscribe" disabled/>
+			</form>
+                <br /> Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions.
+                <br /> &copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved
+            </footer>
+    </body>
+</html>

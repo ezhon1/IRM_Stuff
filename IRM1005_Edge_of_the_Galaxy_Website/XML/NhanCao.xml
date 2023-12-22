@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgeofthegalaxy>
+    <specialevents>
+        <title>Special events</title>
+        <currentevents>
+            <event1>Be a Wookie for a day</event1>
+            <event2>Meet and Greets
+                <subevent1>Darth Vader meet and greet.</subevent1>
+                <subevent2>Royal Visit: Meet Queen Amidala and her retinue.</subevent2>
+            </event2>
+        </currentevents>
+    </specialevents>
+    <restaurant>
+        <dininglocation1>Oga's Cantina</dininglocation1>
+        <dininglocation2>Docking Bay 7 Food and Cargo</dininglocation2>
+        <restaurantevents>Restaurant Events</restaurantevents>
+        <days>Monday to Friday:</days>
+        <days>Saturday</days>
+        <days>Sunday and Holidays</days>
+        <hoursofoperation>7am-6pm</hoursofoperation>
+        <hoursofoperation>́8am-7pm</hoursofoperation>
+        <hoursofoperation>8:30am-5:30pm</hoursofoperation>
+    </restaurant>
+    <menu>
+        <restaurant1>Oga's Cantina</restaurant1>
+        <subtitle>Kids (12 and under) eat for $10 all day!</subtitle>
+        <item category="MorningSpecialties">
+            <name>Black Spire Brew</name>
+            <price>$4.99</price>
+        </item>
+
+        <item category="Afternoon and evening drinks">
+             <name>Jabba Juice</name>
+            <price>$3.99</price>
+        </item>
+
+        <item category="Desserts">
+            <name>Batuu-Bon</name>
+            <price>$5.99</price>
+        </item>
+
+        <restaurant2>Docking Bay 7 Food and Cargo</restaurant2>
+        <item category="Breakfast">
+            <name>Bright Suns Morning</name>
+            <price>$6.99</price>
+        </item>
+
+        <item category="Kids' Meals for guests 3-9">
+            <name>Bright Suns Younglings Breakfast</name>
+            <price>$3.99</price>
+        </item>
+        
+        <item category="Speciality Beverages">
+            <name>Moof Juice</name>
+            <price>$5.99</price>
+        </item>
+    </menu>
+    <restaurantevents>
+        <event1>Haunt Month: Creepy Buffet tickets are only $15 for a limited time only.</event1>
+        <event2>Out Eat the Hutt! - Eating contest for those who are brave enough to take on a slug-like crime lord in an eating contest. Winners will receive a mysterious prize.</event2>
+    </restaurantevents>
+</edgeofthegalaxy>

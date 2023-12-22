@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Restaurant</title>
+        <link rel="stylesheet" type="text/css" href="restaurant.css">
+        <link rel="stylesheet" type="text/css" href="../headerfooter/headerfooter.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="restaurant.js"></script>
+        <script src="../headerfooter/headerfooter.js"></script>
+    </head>
+
+    <body>
+        <!-- header -->
+        <header id="header">
+            Park Temperature: 24&#8451; | Status: Closed
+            <form style="float:right;">
+                <input list="stuff" name="search">
+                <datalist id="stuff">
+                    <option value="season pass">
+                    <option value="jedi training academy">
+                    <option value="career">
+                    <option value="help">
+                    <option value="jabba hutt menu">
+                </datalist>
+                <!-- search bar (does not work) -->
+                <input type="submit" value="Search" class="search" formaction='../404/404.html'>
+            </form>
+        </header>
+        <nav id="header">
+            <table>
+                <tr>
+                    <td class="logo">
+                        <img src="../headerfooter/media/logow.png" width=200 id="logo">
+                    </td>
+                    <td class="dropdown">
+                        <a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+                        <div class="dropdown-content">
+                            <a href="../padawan/padawan.html">Padawan (under 18)</a>
+                            <a href="../jedi/jedi.html">Jedi (18+)</a>
+                            <a href="../events/events.html">Special Events</a>
+                            <a href="../academy/academy.html">Jedi Training Academy</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+                        <div class="dropdown-content">
+                            <a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+                            <a href="../pass/pass.html">Passes</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+                        <div class="dropdown-content">
+                            <a href="../menu/menu.html">Menu</a>
+                            <a href="../restaurantevents/restaurantevents.html">Events</a>
+                        </div>
+                    </td>
+                    <td class="dropdown">
+                        <a href='../info/info.html' class="dropdown-button">Information</a>
+                        <div class="dropdown-content">
+                            <a href="../faq/faq.html">FAQ</a>
+                            <a href="../help/help.html">Help!</a>
+                            <a href="../contact/contact.html">Contact Us</a>
+                            <a href="../jobs/jobs.html">Careers</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <!--Restaurant-->
+        <div class="restaurant">
+            <img src="media/starwarsrestaurant.jpg" alt="Star Wars Edge of the Galaxy's Restaurant" width="100%" height="380px" title="Star Wars Restaurant">
+            <!--Source: https://heavy.com/entertainment/2019/06/star-wars-galaxys-edge-disneyland-restaurants-food/-->
+            <p id="h1" onmouseover="restauranteventsheading1();" onmouseout="restauranteventsheading2()" ;>Restaurant</p>
+            <h5>
+                <div class="restauranttext">
+                    <mark>Enjoy some delicious meals.</mark>
+                </div>
+            </h5>
+            <button class="button"><a href="#my_anchor">Explore more.</a></button>
+        </div>
+        <h1 class="restaurantheader" style="text-align: center; color: black;">Restaurant</h1>
+        <div class="restaurantinformation">
+            <img id="image1" class="center" src="media/restaurant.jpg" width="500" alt="People enjoying Edge of the Galaxy restaurant." title="Star Wars dining">
+            <!--Source: http://www.disneyfoodblog.com/disney-star-wars-galaxys-edge/-->
+            <h2 id="my_anchor">Welcome to The Jabba Hutt! We serve food from across the galaxy, <i> guaranteed </i> to satisfy even the pickiest of eaters!</h2>
+            <p id="p1">Check out our events for exciting food festivals!<sup><a href="#footnote">1</a></sup></p>
+            <audio controls>
+                <source src="media/star-wars-theme-song.mp3" type="audio/mpeg">
+                <source src="media/star-wars-theme-song.ogg" type="audio/ogg">
+                <p>If you are reading this, it is because your browser does not support the audio element.</p>
+            </audio>
+            <!--Source: https://www.thesoundarchive.com/starwars/star-wars-theme-song.mp3-->
+        </div>
+        <h2 id="p2">Check out our menu for meals and buffet pricing!</h2>
+        <div id="popup" class="popup_plane" onclick="hide_popup();">
+            <figure>
+                <img id="popup_image" src="https://ewedit.files.wordpress.com/2019/02/star-wars-galaxys-edge-12.jpg" alt="Star Wars Oga's Cantina" title="Oga's Cantina">
+                <figcaption id="popup_caption">Oga's Cantina</figcaption>
+            </figure>
+        </div>
+        <div class="gallery">
+            <figure onclick='show_popup("https://ewedit.files.wordpress.com/2019/02/star-wars-galaxys-edge-12.jpg", "Star Wars Oga\"s Cantina");'>
+                <img src="https://ewedit.files.wordpress.com/2019/02/star-wars-galaxys-edge-12.jpg" alt="Star Wars Oga's Cantina" title="Oga's Cantina">
+                <!--Star Wars restaurant Image #1 source: http://www.disneyfoodblog.com/wp-content/uploads/2019/05/galaxys-edge-ogas-cantina-33-700x525.jpg-->
+            </figure>
+            <div class="desc">Oga's Cantina
+                <hr width="50%">
+                <a href="../menu/menu.html#rest1link" title="Go to Menu section">
+                    Find our more on our dining page.
+                </a>
+            </div>
+        </div>
+        <div class="gallery">
+            <figure onclick='show_popup("https://i2.wp.com/www.disneytouristblog.com/wp-content/uploads/2019/07/docking-bay-7-food-cargo-star-wars-galaxys-edge-disney-counter-service-restaurant-234.jpg?resize=1000%2C675&ssl=1", "Star Wars Docking Bay 7 Food and Cargo");'>
+                <img src="https://i2.wp.com/www.disneytouristblog.com/wp-content/uploads/2019/07/docking-bay-7-food-cargo-star-wars-galaxys-edge-disney-counter-service-restaurant-234.jpg?resize=1000%2C675&ssl=1" alt="Star Wars Docking Bay 7 Cargo" title="Docking Bay 7 Food and Cargo">
+                <!--Star Wars Image #2 source: https://www.disneytouristblog.com/review-docking-bay-7-restaurant-star-wars-land/-->
+            </figure>
+            <div class="desc">Docking Bay 7 Food and Cargo
+                <hr width="50%">
+                <a href="../menu/menu.html#rest2link" title="Go to Menu section">
+                    Find our more on our dining page.
+                </a>
+            </div>
+        </div>
+        <div class="gallery">
+            <figure onclick='show_popup("https://www.fanthatracks.com/wp-content/uploads/2019/07/GE_Sitdown_SWGE_1.jpg", "Star Wars Restaurant Events");'>
+                <img src="https://www.fanthatracks.com/wp-content/uploads/2019/07/GE_Sitdown_SWGE_1.jpg" alt="Star Wars Restaurant Events" title="Star Wars Restaurant Events">
+                <!--Star Wars Image #3 source: https://www.fanthatracks.com/news/conventions-events/galaxys-edge-sit-down-restaurant-is-coming-to-batuu/-->
+            </figure>
+            <div class="desc">Special Events
+                <hr width="50%">
+                <a href="../restaurantevents/restaurantevents.html" title="Go to Restaurant Events section">
+                    Come see our special events page.
+                </a>
+            </div>
+        </div>
+        <section>
+            <table id="table">
+                <tr>
+                    <th class="th">Days</th>
+                    <th class="th">Hours of Operations:</th>
+                </tr>
+                <tr>
+                    <td>Monday to Friday:</td>
+                    <td>7am-6pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>8am-7pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday and Holidays:</td>
+                    <td>8:30am-5:30 pm</td>
+                </tr>
+            </table>
+        </section>
+        <p> <i class="material-icons">contacts</i> Contact us at (666) 666-Jabba</p>
+        <p>During Haunt Month, The Jabba Hutt closes at 10pm.</p>
+        <p>Please look for our separate entrance on the <a href="../map/map.html">park map.</a></p>
+        <!-- footer -->
+        <footer>
+            <p class="f">
+                Where is the best place to shop for lightsabers?
+                <br /> Where?
+                <br /> The Darth Maul. </p>
+            <b>Stay connected </b><br />
+            <form name="subscribe" method="post" class="esub"> <!-- email subscription form -->
+				<input type="email" name="email" id="subemail" size="20" required /> <br />
+				<input type="checkbox" name="confirm" id="subcheck"/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+				<input type="submit" id="subsub" value="Subscribe" disabled/>
+			</form>
+            <br />
+            <p id="footnote"><sup>1.</sup>Please note, customers for the Galaxy Tavern (Second floor of The Jabba Hutt) must be 19 or older and must present valid I.D. </p>
+            Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions.
+            <br /> &copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved
+        </footer>
+    </body>
+</html>

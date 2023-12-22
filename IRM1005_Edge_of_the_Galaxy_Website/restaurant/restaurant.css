@@ -1,0 +1,309 @@
+#p1 {
+    text-align: center;
+}
+
+/* table */
+
+#tr:hover {
+    background-color: rgb(19, 121, 45);
+} 
+
+#table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    padding: 15px;
+}
+
+#table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+​
+/* banner */
+
+.restaurant {
+    position: relative;
+}
+
+#h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.restauranttext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    text-shadow: black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+mark {
+    color: white;
+    background-color: black;
+}
+
+.button {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 1px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.button:hover {
+    background-color: black;
+    color: blue;
+}
+
+/* buttons */
+
+input[type=button] {
+    background-color: #004080;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+input:hover[type=button] {
+    background-color: #9b0000;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+    height: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(172, 172, 172);
+}
+
+.restaurantinformation {
+    margin: 0;
+    color: black;
+    padding: 10px 20px;
+    background: lightgray;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    box-shadow: 10px 10px 5px grey;
+}
+
+/* body */
+
+body {
+    color: black;
+    font-family: baskerville, baskerville old face, serif;
+}
+
+/* heading */
+
+h2 {
+    text-align: center;
+}
+
+/* image */
+
+#image1 {
+    width: 300px;
+    height: 300px;
+    background: red;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+
+    /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+#image1:hover {
+    width: 400px;
+    height: 400px;
+    -webkit-transform: rotate(360deg);
+
+    /* Safari */
+    transform: rotate(360deg);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* unvisited link */
+
+a:link {
+    color: #004080;
+}
+
+/* visited link */
+
+a:visited {
+    color: #004080;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: #9b0000;
+}
+
+/* selected link */
+
+a:active {
+    color: #9b0000;
+}
+
+/* image gallery */
+
+div.gallery {
+    margin: 50px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+    border-radius: 5px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+    /* IE8 and earlier */
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    transition-delay: 2s ease;
+    opacity: 1;
+    filter: alpha(opacity=100);
+
+    /* IE8 and earlier */
+    box-shadow: 2px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 380px;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform 0.2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5);
+
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    
+    /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+/* popup */
+
+.gallery figure {
+    display: inline-block;
+    width: 270px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery figure img.tall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: auto;
+}
+
+.gallery figure img.wide {
+    position: absolute;
+    top: 0px;
+    left: -15%;
+    height: 100%;
+    width: auto;
+}
+
+/* ---------------------- */
+
+.popup_plane {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 1;
+    transition: opacity 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+}
+
+.popup_plane figure {
+    display: block;
+    background-color: white;
+    border-radius: 1em;
+    margin: 1em auto;
+    padding: 1em;
+    max-width: 500px;
+}
+
+.popup_plane figure img {
+    max-width: 100%;
+
+    /*	margin-left: auto;
+    margin-right: auto; */
+    
+    margin-bottom: 0.5em;
+}
+
+.popup_plane figcaption {
+    text-align: center;
+}

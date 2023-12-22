@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+	font-family:"baskerville old face", "baskerville";
+	line-height: 150%;
+}
+
+h2, h3 {
+	color:black;
+}
+
+a, a:link, a:visited, a:active {
+	color: #004080;
+}
+
+a:hover {
+	color:#9b0000;
+}
+
+.top {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.top img {
+	width:100%;
+	height:380px;
+}
+
+.top h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+.content table {
+	width:90%;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding-bottom: 30px;
+	padding-right: 50px;
+	vertical-align:top;
+}
+
+input[type=button] {
+	font-family:"baskerville old face", "baskerville";
+	font-size: 100%;
+	background-color: #e6e6e6;
+	border: none;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<IRM1005ProjectEdgeoftheGalaxyStarWarsWebsite>
+    <ContactPage>
+        <ContactInfo>
+            <title>Contact Us
+                <subtitle>Contact Information</subtitle>
+            </title>
+            <SpecialLine>(666) Helpme!</SpecialLine>
+            <ContactNo>(666) 666 Jedi</ContactNo>
+            <Email> edgeofthegalaxypark@jedi.com</Email>
+            <Address>
+                <City>In a Galaxy Far, Far Away</City>
+                <Location>Edge of the Galaxy Park</Location>
+                <Universe>Blue Planet, Milky Way</Universe>
+            </Address>
+            <formelement>First Name</formelement>
+            <formelement>Last Name</formelement>
+        </ContactInfo>
+    </ContactPage>
+    <HelpPage>
+        <image>
+            <alt>stars background</alt>
+            <source>media/stars background.jpg</source>
+            <link>http://getwallpapers.com/wallpaper/full/1/4/7/29914.jpg</link>
+        </image>
+        <title>Help
+            <subtitle>Where to go for help</subtitle>
+        </title>
+        <paragraph category="p3">If you find yourself under the attack of a Sith lord, crime lord, bounty hunter, etc. please contact us at (666) HelpMe! Or Text EMERGENCY to (666) 666-6666.
+        </paragraph> 
+    </HelpPage>
+    <AttractionsPage>
+        <title>Attractions
+            <subtitle>List of Attractions</subtitle>
+        </title>
+        <list category="list">
+            <name>Attractions Jedi 18+</name>
+		    <name>Padawan(children and family)</name>
+	        <name>Special events</name>
+		    <name>Jedi Training Academy</name>
+        </list>
+        <para>Test your knowledge below...</para>
+    </AttractionsPage>
+    <InformationPage>
+        <title>Informaiton
+            <subtitle>Information listed below</subtitle>
+        </title>
+        <hours>Hours of Operation</hours>
+        <table category="time">
+            <date>Monday to Friday</date>
+            <time>9am-7pm</time>
+            <date>Saturday</date>
+            <time>9am-8pm</time>
+            <date>Sunday</date>
+            <time>10am-6pm</time>
+        </table>
+        <para>You entered the Info page. Welcome.</para>
+    </InformationPage>
+</IRM1005ProjectEdgeoftheGalaxyStarWarsWebsite>
+
+
+

@@ -1,0 +1,170 @@
+/* headings */
+
+h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+/* body */
+
+h2, body {
+    color: black;
+    font-family: baskerville, baskerville old face, serif;
+}
+
+h2 {
+    color: white;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* banner image */
+
+.image {
+    width: 100%;
+    height: 380px;
+}
+
+#h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.restauranteventstext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    text-shadow: black;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+mark {
+    background-color: black;
+    color: white;
+}
+
+.button {
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 1px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.button:hover {
+    background-color: #004080;
+    color: white;
+}
+
+#button{
+    position: absolute;
+    top: 61%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 3px 1px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+/* buttons */
+
+input[type=button] {
+    background-color: #004080;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 3px 2px;
+    cursor: pointer;
+}
+
+input:hover[type=button] {
+    background-color: #9b0000;
+}
+
+/* unvisited link */
+
+a:link {
+    color: #004080;
+}
+
+/* visited link */
+
+a:visited {
+    color: #004080;
+}
+
+/* mouse over link */
+
+a:hover {
+    color: #9b0000;
+}
+
+/* selected link */
+
+a:active {
+    color: #9b0000;
+}
+
+/* panel */
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #004080;
+    border: solid 1px #c3c3c3;
+    color: white;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+
+ul {
+    text-align: left;
+}
+
+::selection {
+    background-color: #9b0000;
+}

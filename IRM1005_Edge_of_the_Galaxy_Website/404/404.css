@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+	font-family:"baskerville old face", "baskerville";
+	line-height: 150%;
+	text-align:center;
+}
+
+h2, h3, a, a:link, a:visited, a:active {
+	color: #004080;
+}
+
+a:hover {
+	color:#9b0000;
+}
+
+#crest
+{
+	margin: 1em auto;
+	display: block;
+	width: 100px;
+	height: 100px;
+}

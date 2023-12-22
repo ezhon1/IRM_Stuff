@@ -1,0 +1,244 @@
+<!DOCTYPE html> 
+<html>
+	<head lang="en-ca">
+		<meta charset="UTF-8">
+		<title>Attractions | Edge of the Galaxy</title>
+		<link rel="stylesheet" type="text/css" href="attractions.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../headerfooter/headerfooter.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="attractions.js"></script>
+		<script src="../headerfooter/headerfooter.js"></script>
+	</head>
+	
+	<body onload="showSlides()">	
+		<!-- copy both header and nav for the header -->
+		<!-- header -->
+		<header id="header"> 
+			Park Temperature: 24&#8451; | Status: Closed
+			<form style="float:right;">
+				<input list="stuff" name="search">
+				<datalist id="stuff" >
+					<option value="season pass">
+					<option value="jedi training academy">
+					<option value="career">
+					<option value="help">
+					<option value="jabba hutt menu">
+				</datalist>
+				<!-- search bar (does not work) -->
+				<input type="submit" value="Search" class="search" formaction='../404/404.html'>
+			</form>
+		</header>
+		<nav id="header">
+			<table>
+				<tr>
+					<td class="logo">
+						<img src="../headerfooter/media/logow.png" width=200 id="logo">				</td>
+					<td class="dropdown">
+						<a href='../attractions/attractions.html' class="dropdown-button">Attractions</a>
+						<div class="dropdown-content">
+							<a href="../padawan/padawan.html">Padawan (under 18)</a>
+							<a href="../jedi/jedi.html">Jedi (18+)</a>
+							<a href="../events/events.html">Special Events</a>
+							<a href="../academy/academy.html">Jedi Training Academy</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../tickets/tickets.html' class="dropdown-button">Tickets</a>
+						<div class="dropdown-content">
+							<a href="../dailytickets/dailytickets.html">Daily Tickets</a>
+							<a href="../pass/pass.html">Passes</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../restaurant/restaurant.html' class="dropdown-button">Jabba Hutt</a>
+						<div class="dropdown-content">
+							<a href="../menu/menu.html">Menu</a>
+							<a href="../restaurantevents/restaurantevents.html">Events</a>
+						</div>
+					</td>
+					<td class="dropdown">
+						<a href='../info/info.html' class="dropdown-button">Information</a>
+						<div class="dropdown-content">
+							<a href="../faq/faq.html">FAQ</a>
+							<a href="../help/help.html">Help!</a>
+							<a href="../contact/contact.html">Contact Us</a>
+							<a href="../jobs/jobs.html">Careers</a>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</nav>
+		<div class="all">
+			<!--Image taken from https://starwarsblog.starwars.com/wp-content/uploads/2019/08/rise-of-skywalker-poster-tall.jpg-->
+			<img src="media/rise-of-skywalker-poster-tall.jpg " alt="rise of Skywalker" class="image">
+			<div class="cap">Attractions</div>
+		</div>
+		<h2>List of attractions:</h2>
+		<br /><a class="link" href="../jedi/jedi.html">Attractions Jedi 18+</a>
+		<br /><a class="link" href="../padawan/padawan.html">Padawan(children and family)</a>
+		<br /><a class="link" href="../events/events.html">Special events</a>
+		<br /><a class="link" href="../academy/academy.html">Jedi Training Academy</a>
+		<br />
+		<figure class="item">
+			<img class="starsimg" src="media/Millennium_Falcon_ride.jpg" alt="Millennium Falcon." width="600" height="400">
+			<!--link for the Millennium Falcon image is https://www.revell.de/out/pictures/master/product/1/06718_smpw_millennium_falcon.jpg. copied from the source link https://www.revell.de/en/products/star-wars/star-wars-episode-iv-vi/millennium-falcon.html. -->  
+			<figcaption class="caption"><strong>The famous Millennium Falcon ride!</strong></figcaption> <br />
+		</figure>
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+		<!-- Full-width images with number and caption text -->
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 5</div>
+			<img src="media/Millennium_Falcon_ride.jpg" alt="Millennium Falcon" style="width:50%">
+			<div class="text">Millennium Falcon</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 5</div>
+			<img src="media/lightsaber-duel.jpg" alt="Lightsaber Duels" style="width:50%">
+			<div class="text">Lightsaber Duels</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 5</div>
+			<img src="media/Jedi-Training-Academy.jpg" alt="Jedi Training Academy" style="width:50%">
+			<div class="text">Jedi Training Academy</div>
+			<!-- link for the image is https://images.squarespace-cdn.com/content/v1/52c5974be4b0434170f9d23f/1460593742397-QCQROOOFH6785WUILKLA/ke17ZwdGBToddI8pDm48kIwgJoN040qxxzeHMZIwZOoUqsxRUqqbr1mOJYKfIPR7t41kSIWg3YhQfqCIQy0RAd_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcJC-fzmDVwRjafvlwR8JvG2kJnbf2JWBo0_p5f-RwGc6gRhe5Mabmrx89syR8xGXm/Jedi-Training-Academy.jpg. copied from the source link address https://www.buildabettermousetrip.com/star-wars-at-disney-world.-->
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 5</div>
+			<img src="media/jedi&yoda.jpg" alt="Jedi Covenants" style="width:50%">
+			<div class="text">Jedi Covenants</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 5</div>
+			<img src="media/Yoda.jpg" alt="Yoda the Jedi Master" style="width:50%">
+			<div class="text">Yoda the Jedi Master</div>
+		</div>
+		<!-- Next and previous buttons -->
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br />
+			
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+			<span class="dot" onclick="currentSlide(4)"></span>
+			<span class="dot" onclick="currentSlide(5)"></span>
+		</div>
+		<figure class="item">
+			<img id="starsimg" src="media/lightsaber-duel.jpg" alt="Lightsaber duels special events." width="400" height="300">
+			<!--link address for lightsaber duel image is https://starwarsblog.starwars.com/wp-content/uploads/2016/06/Screen-Shot-2016-06-09-at-12.29.41-PM-1536x864-479438850004.jpg. copied from the source link address https://www.starwars.com/news/poll-what-is-the-best-lightsaber-duel.-->
+			<figcaption id="caption"><strong>Special events: Lightsaber duels!</strong></figcaption> <br />
+		</figure>
+		<h2>The list of attractions for Edge of the Park can be found below. Please enjoy the spectacular rides. Come check us out!</h2> <br />
+		<ul class="a">
+	       <li>Millennium Falcon</li>
+	       <li>Jedi Training Academy</li>
+	       <li>Padawan
+				<ul>
+					<li>children and family</li>
+				</ul>
+			</li>
+	        <li>Jedi 18+</li>
+			<li>Special events</li>
+		</ul>
+		<ul id="myList">
+			<li>Millennium Falcon</li>
+			<li>Jedi Training Academy</li>
+			<li>Padawan
+				<ul>
+					<li>children and family</li>
+				</ul>
+			</li>
+			<li>Jedi 18+</li
+			><li>Special events</li>
+		</ul>
+		<p>Click the button to remove the first item from the list.</p>
+		<button class="button" onclick="myFunction()">Try it</button>
+		<ol class="c" type="1">
+			<li>Millennium Falcon</li>
+			<li>Jedi Training Academy</li>
+			<li>Special events</li>
+			<li>None of the above</li>
+			<li>Others</li>
+		</ol>
+		<p id="new">We always have something new and exciting!</p> 
+		<p id="which">Which attractions do you prefer in order?</p>
+		<p class="p2">Out of both of the lists above, I prefer the attraction</p>
+		<textarea id="myTextarea" onkeyup="new resize(this);"  name="comments" cols="20" rows="2"></textarea>
+		<br />
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		<br />
+		<p class="p2"> Fun facts:</p>
+		<ul class="b">
+			<li>Maximum speed: 1050 km/h.</li>
+			<li>Length: 34.75 metres.</li>
+			<li>The ship becomes the base for the Resistance.</li>
+		</ul>
+		<br />
+		<div class="attractions">
+			<article class="article"> 
+				<b>	Edge of the Galaxy Park will feature amazing and cool rides from Star Wars such as the Millennium Falcon.<br />
+					This iconic spaceship will feature the fastest ship in the galaxy. Guest can come in in for a ride.
+						Edge of the <br /> Galaxy is committed to bringing adventure and excitement to all guests.  We work hard to find newer attractions <br /> coming soon.
+						Furthermore, we will be celebrating our 5th anniversary very soon, so please come and celebrate! <br />We are very passionate 
+					about Star Wars and we love your input on the attractions!
+				</b>
+			</article>
+		</div>
+		<p>Jedi Master!</p>
+		<p>No!</p>
+		<p>Bye!</p>
+		<figure class="item">
+			<img id="starsimg" src="media/jedi&yoda.jpg" alt="Jedi covenant and Yoda." style="width:400px;height:300px;">
+			<figcaption class="caption"><b>Jedi Covenants</b></figcaption>
+		</figure>
+		<!--link for the Jedi and Yoda image is https://vignette.wikia.nocookie.net/starwars/images/f/f6/Jedi_Covenant_KotORCG.jpg/revision/latest/scale-to-width-down/230?cb=20081013231911.jpg. copied from the source link https://starwars.fandom.com/wiki/Jedi_Covenant.--> 
+		<figure class="item">
+			<img class="starsimg" src="media/Yoda.jpg" alt=" leader of the Jedi is Yoda." style="width:500px;height:300px;">
+			<figcaption class="caption"><b>Jedi Master</b></figcaption>
+		</figure>
+		<article><b>Yoda was a powerful Jedi master within the Force. <br />He was small, but very powerful. He also trained Luke Skywalker.</b></article>
+		<!--Source of the link is  https://www.starwars.com/databank/yoda.-->
+		<!--link for the Jedi image is https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864&width=768. copied from the source link address https://www.starwars.com/databank/yoda.-->
+		<p id="center">Test your knowledge below...</p>
+		<p id="center">How much do you know about Star Wars?</p>	
+		<p>Unleash your inner Jedi!</p>
+		<h4>Watch these short video to understand the Millennium Falcon ride.</h4>
+		<p>Come with friends and family and it's open for everyone!</p>
+		<iframe class="stars" width="560" height="315" src="https://www.youtube.com/embed/i3Cyofu6hLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<!-- link for the youtube video Solo Star Wars is https://www.youtube.com/embed/i3Cyofu6hLE.-->
+		<iframe id="starwars" width="560" height="315" src="https://www.youtube.com/embed/_6Q8bpTaSH4?start=95" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<!-- link for the youtube video 9 things you probably don't know about the Millenium Falcon is https://www.youtube.com/embed/_6Q8bpTaSH4?start=95.-->
+		<div class="tooltip">YouTube video on the Millennium Falcon
+			<span class="tooltiptext">Millennium Falcon</span>
+		</div>
+		<br />
+		<br />
+		<button onclick="topFunction()" class="button" title="Go to top">Top</button>
+		<!-- footer -->	
+		<footer>
+			<p class="f">
+				<i>Q: Why shouldn't you ask Yoda for money? <br /></i>
+				<i>A: Because he's always a little short.</i>
+			</p>		
+			<b>Stay connected </b><br />
+			<form name="subscribe" method="post" class="esub"> <!-- email subscription form -->
+				<input type="email" name="email" id="subemail" size="20" required /> <br />
+				<input type="checkbox" name="confirm" id="subcheck"/> I agree to receiving marketing and promotional material from Edge of the Galaxy Park.<br />
+				<input type="submit" id="subsub" value="Subscribe" disabled/>
+			</form>
+			<br />
+			Disclaimer: Edge of the Galaxy Park is not liable for any injury or death related to 18+ attractions. 
+			<br />
+			&copy; 2019 Edge of the Galaxy Park | &copy; 2019 Edge of the Galaxy Park All Rights Reserved
+		</footer>
+	</body>
+</html>

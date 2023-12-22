@@ -1,0 +1,6 @@
+﻿  list.cpp
+  main.cpp
+C:\Users\Emily\Documents\Homework\BIT2400\A07\A07_EZhong\main.cpp(12,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  node.cpp
+  Generating Code...
+  A07_EZhong.vcxproj -> C:\Users\Emily\Documents\Homework\BIT2400\A07\A07_EZhong\Debug\A07_EZhong.exe

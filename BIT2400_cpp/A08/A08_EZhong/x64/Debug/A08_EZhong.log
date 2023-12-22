@@ -1,0 +1,5 @@
+﻿  QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly.
+  A08.cpp
+  main.cpp
+C:\Qt\6.6.1\mingw_64\include\QtCore\qcompilerdetection.h(1237,1): fatal  error C1189: #error:  "Qt requires a C++17 compiler, and a suitable value for __cplusplus. On MSVC, you must pass the /Zc:__cplusplus option to the compiler." (compiling source file A08.cpp)
+C:\Qt\6.6.1\mingw_64\include\QtCore\qcompilerdetection.h(1237,1): fatal  error C1189: #error:  "Qt requires a C++17 compiler, and a suitable value for __cplusplus. On MSVC, you must pass the /Zc:__cplusplus option to the compiler." (compiling source file main.cpp)

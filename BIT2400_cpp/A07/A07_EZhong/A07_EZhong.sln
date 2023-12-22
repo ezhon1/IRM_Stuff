@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "A07_EZhong", "A07_EZhong.vcxproj", "{864880F9-33B0-4C77-BEAA-540D1038E47A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864880F9-33B0-4C77-BEAA-540D1038E47A}.Debug|x64.ActiveCfg = Debug|x64
+		{864880F9-33B0-4C77-BEAA-540D1038E47A}.Debug|x64.Build.0 = Debug|x64
+		{864880F9-33B0-4C77-BEAA-540D1038E47A}.Debug|x86.ActiveCfg = Debug|Win32
+		{864880F9-33B0-4C77-BEAA-540D1038E47A}.Debug|x86.Build.0 = Debug|Win32
+		{864880F9-33B0-4C77-BEAA-540D1038E47A}.Release|x64.ActiveCfg = Release|x64
+		{864880F9-33B0-4C77-BEAA-540D1038E47A}.Release|x64.Build.0 = Release|x64
+		{864880F9-33B0-4C77-BEAA-540D1038E47A}.Release|x86.ActiveCfg = Release|Win32
+		{864880F9-33B0-4C77-BEAA-540D1038E47A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B9426FB-EF86-4EDD-9845-AB859CBACFEE}
+	EndGlobalSection
+EndGlobal

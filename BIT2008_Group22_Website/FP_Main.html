@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  /*background: Aquamarine;*/
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  /*background-image: linear-gradient(rgba(45,253,240,100), rgba(59,195,34,100));*/
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.main {   
+  flex: 190%;
+  background-color: white;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  /*text-align: center;*/
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.ImgRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #778899;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>BLUE GARDEN BOTANICAL LIBRARY </h1>
+  <h3>Multimedia Data Management Project by Group 22</h3>
+</div>
+
+<div class="navbar">
+  <a href="loginIndex.php">Login Page</a>
+  <a href="FP_Elements.html#EleAtt">Entities and Attributes</a>
+  <a href="FP_Elements.html#ER">Initial Entity Relationship (ER) Diagram</a>
+  <a href="FP_Elements.html#EnER">Enhanced Entity Relationship (EER) Diagram</a>
+  <a href="FP_Elements.html#PDDCS">Physical Database Design Conversion Steps</a>
+  <a href="FP_Elements.html#PDD">Physical Database Design</a>
+  <a href="FP_Elements.html#Tbls">Alterations: Normalizing Tables to 3NF</a>
+  <a href="FP_Elements.html#NTbls">Normalized Tables</a>
+  <a href="FP_Conclusion.html">Conclusion</a>
+</div>
+
+<div class="row">
+  <div class="main">
+    <h2>PROJECT DESCRIPTION</h2>
+    <h3>What are we creating? </h3>
+		<p>We are creating a database management system (DBMS) for the Blue Garden Botanical Library. The Library has over 800,000 works and manuscripts, and provides access to several thousand electronic titles including journals, ebooks, and online resources. </p>
+  
+    <h3>Why? </h3>
+		<p>The Blue Garden Botanical Library database management system will drastically improve and facilitate the catalogue search and overall library experience for both users and employees alike. As the Library has yet to implement a database management system, the introduction of this system will be making great changes to the way the library functions. The DBMS will allow library employees to enter new resources, make changes to existing resources, and keep track of resources being borrowed without the added burden that a manual system causes. The DBMS will further allow library staff and users to easily view information pertaining to each resource, such as it’s availability, where to locate it, and what type of resource it is. </p>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Our Team</h2>
+    <div class="ImgRow">
+		<div class="column">
+		  <div class="container">
+			<img src="Images/FarhaImage.jpg" alt="Team Member: Farha" style="width:100%;height:300px">
+			<div class="content">
+				<h3>Farha Munshi</h3>
+			</div>
+			<div class="overlay">
+				<div class="text">
+				-Presentation<br>
+				-Report<br>
+				-Project Description<br>
+				-Elements and Attributes<br>
+				-Conclusion<br>
+				-SQL<br>
+				-Normalized Tables<br>
+				-Multimedia Pages<br>
+				-Database maintenance<br>
+				</div>
+			</div>
+		  </div>
+	    </div>
+		<div class="column">
+		  <div class="container">
+			<img src="Images/ZuneraImage.jpg" alt="Team Member: Zunera" style="width:100%;height:300px">
+			<div class="content">
+				<h3>Zunera Amir</h3>
+			</div>
+			<div class="overlay">
+				<div class="text">
+				-Presentation<br>
+				-Report<br>
+				-Project Description<br>
+				-Elements and Attributes<br>
+				-Conclusion<br>
+				-Normalized Tables<br>
+				-Website Navigation Tree<br>
+				-Update report and presentation<br>
+				</div>
+			</div>
+		  </div>
+	    </div>
+		<div class="column">
+		  <div class="container">
+			<img src="Images/EmilyImage.jpg" alt="Team Member: Emily" style="width:100%;height:300px">
+			<div class="content">
+				<h3>Emily Zhong</h3>
+			</div>
+			<div class="overlay">
+				<div class="text">
+				-Presentation<br>
+				-Project Description<br>
+				-Elements and Attributes<br>
+				-ER<br>
+				-EER<br>
+				-Tables<br>
+				-SQL<br>
+				-Join Pages<br>
+				-Insert Tables to the database<br>
+				</div>
+			</div>
+		  </div>
+	    </div>
+		<div class="column">
+		  <div class="container">
+			<img src="Images/NisiniImage.png" alt="Team Member: Nisini" style="width:100%;height:300px">
+			<div class="content">
+				<h3>Nisini Dias</h3>
+			</div>
+			<div class="overlay">
+				<div class="text">
+				-Presentation<br>
+				-Report<br>
+				-Physical Database Design<br>
+				-Physical Database Design Conversion Steps<br>
+				-Website(3 pages)<br>
+				-Login Pages<br>
+				-Create Pages<br>
+				-Update Pages<br>
+				-Search Pages<br>
+				-Delete Pages<br>
+				</div>
+			</div>
+		  </div>
+	    </div>
+	</div>
+</div>
+</body>
+</html>

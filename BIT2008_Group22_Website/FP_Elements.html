@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  /*background: Aquamarine;*/
+  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  /*background-image: linear-gradient(rgba(45,253,240,100), rgba(59,195,34,100));*/
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.main {   
+  flex: 190%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+dl {
+  background: #90EE90;
+  padding: 20px;
+}
+dl dt {
+  background: #F0FFF0;
+  margin: 5px;
+}
+
+img.bigImg {
+  max-width: 100%;
+  height: auto;
+  border: 10px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  border-color: #90EE90;
+}
+div.smallImg {
+  max-width: 100%;
+  height: auto;
+  border: 10px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  border-color: #90EE90;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>BLUE GARDEN BOTANICAL LIBRARY </h1>
+  <h3>Multimedia Data Management Project by Group 22</h3>
+</div>
+
+<div class="navbar">
+  <a href="FP_Main.html">Home</a>
+  <a href="loginIndex.php">Login Page</a>
+  <a href="FP_Elements.html#EleAtt">Entities and Attributes</a>
+  <a href="FP_Elements.html#ER">Initial Entity Relationship (ER) Diagram</a>
+  <a href="FP_Elements.html#EnER">Enhanced Entity Relationship (EER) Diagram</a>
+  <a href="FP_Elements.html#PDDCS">Physical Database Design Conversion Steps</a>
+  <a href="FP_Elements.html#PDD">Physical Database Design</a>
+  <a href="FP_Elements.html#Tbls">Alterations: Normalizing Tables to 3NF</a>
+  <a href="FP_Elements.html#NTbls">Normalized Tables</a>
+  <a href="FP_Conclusion.html">Conclusion</a>
+</div>
+
+<div class="row">
+  <div class="main">
+  <h2><a id="EleAtt">Entities and Attributes</a></h2>
+	<dl>
+	  <dt>- Employee</dt>
+	  <dd>- Employee ID (primary key)</dd>
+	  <dd>-	Name (composite)</dd>
+	  <dd>-	Work Location</dd>
+	  <dd>-	Job Title</dd>
+	  <dd>-	Email</dd>
+	  <dd>-	Phone number (multivalued)</dd>
+	  
+	  <dt>- Dependent </dt>
+	  <dd>-	Name (partial key)</dd>
+	  <dd>-	Address</dd>
+	  <dd>-	Email</dd>
+	  <dd>-	Phone number</dd>
+	  
+	  <dt>- User</dt>
+	  <dd>-	User ID (primary key)</dd>
+	  <dd>-	Name (composite)</dd>
+	  <dd>-	Address (composite)</dd>
+	  <dd>-	Registration Date (composite)</dd>
+	  <dd>-	Access to restricted items?</dd>
+	  <dd>-	Email</dd>
+	  <dd>-	Phone number (multivalued)</dd>
+	  <dd>-	Fines</dd>
+	  <dd>-	Items overdue (multivalued)</dd>
+	  
+	  <dt>- Resource</dt>
+	  <dd>-	Resource ID (primary key)</dd>
+	  <dd>-	Publisher</dd>
+	  <dd>-	Category</dd>
+	  <dd>-	Dewey Decimal Number</dd>
+	  <dd>-	Title</dd>
+	  
+	  <dt>- Botanical Library</dt>
+	  <dd>-	Name (Primary Key)</dd>
+	  <dd>-	Phone number (multivalued)</dd>
+	  <dd>-	Address</dd>
+	  
+	  <dt>- Creator</dt>
+	  <dd>-	Creator ID (Primary Key)</dd>
+	  <dd>-	Name</dd>
+	  <dd>-	Phone Number (multivalued)</dd>
+	  <dd>-	Email</dd>
+	  
+	</dl>
+  <h2><a id="ER">Initial Entity Relationship (ER) Diagram</a></h2>
+	<img class="bigImg" src="Images/Group22_ER Diagram.png" alt="ER Diagram Imagae" >
+
+  <h2><a id="EnER">Enhanced Entity Relationship (EER) Diagram</a></h2>
+	<img class="bigImg" src="Images/Group22_EER Diagram.png" alt="EER Diagram Image" >
+	
+  <h2><a id="PDDCS">Physical Database Design Conversion Steps</a></h2>
+	<img class="bigImg" src="Images/Group22_Physical Database Design with Steps.png" alt="Physical Database Design Conversion Steps Image">
+	
+  <h2><a id="PDD">Physical Database Design</a></h2>
+	<img class="bigImg" src="Images/Group22_Physical Database Design.png" alt="Physical Database Design Image">
+	
+  <h2><a id="Tbls">Alterations: Normalizing Tables to 3NF</a></h2>
+    <div class="smallImg">
+		<img src="Images/NormalizationImg/Normalized1.PNG" alt="Normalized1" >
+		<img src="Images/NormalizationImg/Normalized2.PNG" alt="Normalized2" >
+		<img src="Images/NormalizationImg/Normalized3.PNG" alt="Normalized3" >
+		<img src="Images/NormalizationImg/Normalized4.PNG" alt="Normalized4" >
+		<img src="Images/NormalizationImg/Normalized5.PNG" alt="Normalized5" >
+		<img src="Images/NormalizationImg/Normalized6.PNG" alt="Normalized6" >
+	</div>
+  <h2><a id="NTbls">Normalized Tables</a></h2>
+
+  	<div class="smallImg">
+		<img src="Images/NormalizationImg/NormTo3NF1.PNG" alt="NormTo3NF1" >
+		<img src="Images/NormalizationImg/NormTo3NF2.PNG" alt="NormTo3NF2" >
+		<img src="Images/NormalizationImg/NormTo3NF3.PNG" alt="NormTo3NF3" >
+		<img src="Images/NormalizationImg/NormTo3NF4.PNG" alt="NormTo3NF4" >
+		<img src="Images/NormalizationImg/NormTo3NF5.PNG" alt="NormTo3NF5" >
+		<img src="Images/NormalizationImg/NormTo3NF6.PNG" alt="NormTo3NF6" >
+	</div>
+  </div>
+</div>
+
+</body>
+</html>
